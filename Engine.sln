@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingEngine.Webapp", "Rou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.DataAccess", "Infrastructure.DataAccess\Infrastructure.DataAccess.csproj", "{E22B1FAA-1B2B-42A1-AD58-1D9AA3FCCB8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCases", "UseCases\UseCases.csproj", "{865E0C7B-B16C-4847-9F3A-58FCBE512540}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{E22B1FAA-1B2B-42A1-AD58-1D9AA3FCCB8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E22B1FAA-1B2B-42A1-AD58-1D9AA3FCCB8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E22B1FAA-1B2B-42A1-AD58-1D9AA3FCCB8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{865E0C7B-B16C-4847-9F3A-58FCBE512540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{865E0C7B-B16C-4847-9F3A-58FCBE512540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{865E0C7B-B16C-4847-9F3A-58FCBE512540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{865E0C7B-B16C-4847-9F3A-58FCBE512540}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

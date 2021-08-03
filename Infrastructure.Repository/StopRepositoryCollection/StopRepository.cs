@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using Domain.Core;
 
 namespace Infrastructure.Repository.StopRepositoryCollection

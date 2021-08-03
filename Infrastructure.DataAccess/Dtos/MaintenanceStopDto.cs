@@ -11,4 +11,5 @@ namespace Infrastructure.DataAccess
         
         public string City { get; set; }
     }
+
 }

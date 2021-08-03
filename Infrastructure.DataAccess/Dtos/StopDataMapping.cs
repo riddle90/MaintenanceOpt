@@ -2,9 +2,9 @@
 
 namespace Infrastructure.DataAccess.Dtos
 {
-    public sealed class DataMapping : ClassMap<MaintenanceStopDto>
+    public sealed class StopDataMapping : ClassMap<MaintenanceStopDto>
     {
-        public DataMapping()
+        public StopDataMapping()
         {
             this.Map(x => x.CustomerID).Name("Customer ID");
             this.Map(x => x.Address).Name("Address");
