@@ -16,7 +16,7 @@ namespace Infrastructure.Repository
 
         public void AddRoute(Route route)
         {
-            this.OptimizedRoutes.Add(route.routeId, route);
+            this.OptimizedRoutes.Add(route.RouteId, route);
         }
 
         public ICollection<Route> GetAllRoutes()
@@ -34,7 +34,7 @@ namespace Infrastructure.Repository
 
         public void RemoveRoute(Route route)
         {
-            this.OptimizedRoutes.Remove(route.routeId);
+            this.OptimizedRoutes.Remove(route.RouteId);
         }
     }
 }

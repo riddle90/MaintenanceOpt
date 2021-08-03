@@ -10,6 +10,7 @@ namespace RoutingEngine.Webapp
         public static void InitializeContainer(Container container)
         {
             InitializeRepository(container);
+            
         }
 
         private static void InitializeRepository(Container container)

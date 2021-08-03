@@ -11,8 +11,9 @@ namespace Domain.Core
         public string Zipcode { get; }
         public string City { get; }
         public TimeWindow TimeWindow { get; }
+        public int StopTime { get; }
 
-        public Stop(Guid guid, int customerId, string address, string zipcode, string city, TimeWindow timeWindow)
+        public Stop(Guid guid, int customerId, string address, string zipcode, string city, TimeWindow timeWindow, int stopTime)
         {
             Guid = guid;
             CustomerId = customerId;
@@ -20,6 +21,7 @@ namespace Domain.Core
             Zipcode = zipcode;
             City = city;
             TimeWindow = timeWindow;
+            StopTime = stopTime;
         }
     }
 }
