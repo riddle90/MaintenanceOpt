@@ -7,6 +7,11 @@
         <AssemblyName>RoutingEngine.Webapp</AssemblyName>
     </PropertyGroup>
 
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <DocumentationFile>bin\Debug\RoutingEngine.Webapp.xml</DocumentationFile>
+      <NoWarn>1701;1702;1591</NoWarn>
+    </PropertyGroup>
+
     <ItemGroup>
       <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
