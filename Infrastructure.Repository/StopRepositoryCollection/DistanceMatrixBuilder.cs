@@ -7,9 +7,9 @@ namespace Infrastructure.Repository.StopRepositoryCollection
 {
     public class DistanceMatrixBuilder : IDistanceMatrixBuilder
     {
-        private readonly IDistanceMatrix _distanceMatrix;
+        private readonly IDistanceMatrixRepository _distanceMatrix;
 
-        public DistanceMatrixBuilder(IDistanceMatrix distanceMatrix)
+        public DistanceMatrixBuilder(IDistanceMatrixRepository distanceMatrix)
         {
             _distanceMatrix = distanceMatrix;
         }

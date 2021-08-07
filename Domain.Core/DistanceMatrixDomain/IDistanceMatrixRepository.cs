@@ -2,7 +2,7 @@
 
 namespace Domain.Core.DistanceMatrixDomain
 {
-    public interface IDistanceMatrix
+    public interface IDistanceMatrixRepository
     {
         void Add(int originCustomer, int destinationCustomer, DistanceInfo distanceInfo);
 

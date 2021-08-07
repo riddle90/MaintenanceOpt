@@ -1,13 +1,14 @@
 ﻿using System.Collections.Generic;
+using Domain.Core.DistanceMatrixDomain;
 using Domain.Core.LocationDomain;
 
-namespace Domain.Core.DistanceMatrixDomain
+namespace Infrastructure.Repository.DistanceMatrixRepositoryCollection
 {
-    public class DistanceMatrix : IDistanceMatrix
+    public class DistanceMatrixRepository : IDistanceMatrixRepository
     {
         private readonly Dictionary<int, Dictionary<int, DistanceInfo>> _distanceMatrix;
 
-        public DistanceMatrix()
+        public DistanceMatrixRepository()
         {
             this._distanceMatrix = new Dictionary<int, Dictionary<int, DistanceInfo>>();
         }
