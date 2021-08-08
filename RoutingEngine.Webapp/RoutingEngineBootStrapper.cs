@@ -4,6 +4,7 @@ using Domain.Core.DistanceMatrixDomain;
 using Infrastructure.DataAccess;
 using Infrastructure.Repository;
 using Infrastructure.Repository.DistanceMatrixRepositoryCollection;
+using Infrastructure.Repository.GoogleApis;
 using Infrastructure.Repository.StopRepositoryCollection;
 using SimpleInjector;
 using UseCases;
@@ -27,6 +28,7 @@ namespace RoutingEngine.Webapp
             container.Register<IRouteRepository, RouteRepository>();
             container.Register<IStopRepository, StopRepository>();
             container.Register<IDistanceMatrixRepository, DistanceMatrixRepository>();
+            container.Register<IGetDistanceMatrixApi, GetGoogleDistanceMatrixApi>();
         }
 
         private static void InitializeAlgorithms(Container container)

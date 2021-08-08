@@ -3,7 +3,7 @@ namespace Infrastructure.DataAccess
 {
     public class MaintenanceStopDto
     {
-        public long CustomerID { get; set; }
+        public int CustomerID { get; set; }
         
         public string Address { get; set; }
         

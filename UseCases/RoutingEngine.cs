@@ -16,9 +16,9 @@ namespace UseCases
             _outputBuilder = outputBuilder;
             _optimizer = optimizer;
         }
-        public async Task Run()
+        public async Task Run(string apiKey)
         {
-            await this._inputBuilder.Build();
+            await this._inputBuilder.Build(apiKey);
             this._optimizer.BuildRoutes();
             await this._outputBuilder.SaveResults();
         }

@@ -24,15 +24,17 @@ namespace Infrastructure.DataAccess
         
         public async Task<ICollection<MaintenanceStopDto>> GetMaintenanceStopDtos()
         {
-            using (TextReader reader = await FileReader.GetReader(this._configuration["App:Filename"]))
+            var fileName = "Mainteny_Sample_Data_Elevators_1.csv"; //this._configuration["Filename"];
+            using (TextReader reader = await FileReader.GetReader(fileName))
             {
                 var configuration = new CsvConfiguration(CultureInfo.InvariantCulture)
                 {
                     Delimiter = ",",
                     HasHeaderRecord = true,
+                    IgnoreBlankLines = true,
+                    ShouldSkipRecord = (record) => record.Record.All(field => string.IsNullOrWhiteSpace(field)),
                 };
                 
-                configuration.IgnoreBlankLines = true;
                 using (var csv = new CsvReader(reader, configuration))
                 {
                     csv.Context.RegisterClassMap<StopDataMapping>();
