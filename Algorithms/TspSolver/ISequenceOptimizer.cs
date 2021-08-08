@@ -10,11 +10,6 @@ namespace Algorithms.TspSolver
         Route Optimize(List<Stop> stops);
     }
 
-    public interface IRunOptimization
-    {
-        List<Stop> Run(List<Stop> stops);
-    }
-    
     public class SequenceOptimizer : ISequenceOptimizer
     {
         private readonly IRunOptimization _runOptimization;

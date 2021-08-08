@@ -6,7 +6,7 @@ namespace Infrastructure.DataAccess.Dtos
     {
         public Guid RouteID { get; set; }
 
-        public int CustomerId { get; set; }
+        public long CustomerId { get; set; }
 
         public int StopSequence { get; set; }
 

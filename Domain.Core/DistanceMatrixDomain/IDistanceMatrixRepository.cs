@@ -4,10 +4,10 @@ namespace Domain.Core.DistanceMatrixDomain
 {
     public interface IDistanceMatrixRepository
     {
-        void Add(int originCustomer, int destinationCustomer, DistanceInfo distanceInfo);
+        void Add(long originCustomer, long destinationCustomer, DistanceInfo distanceInfo);
 
-        float GetDistance(int originCustomer, int destinationCustomer);
+        float GetDistance(long originCustomer, long destinationCustomer);
 
-        float GetTime(int originCustomer, int destinationCustomer);
+        float GetTime(long originCustomer, long destinationCustomer);
     }
 }
