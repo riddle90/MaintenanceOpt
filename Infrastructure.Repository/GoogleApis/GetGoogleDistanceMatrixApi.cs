@@ -4,7 +4,6 @@ using Domain.Core;
 using Domain.Core.DistanceMatrixDomain;
 using Domain.Core.LocationDomain;
 using Google.Maps;
-using Google.Maps.Direction;
 using Google.Maps.DistanceMatrix;
 using Stop = Domain.Core.Stop;
 

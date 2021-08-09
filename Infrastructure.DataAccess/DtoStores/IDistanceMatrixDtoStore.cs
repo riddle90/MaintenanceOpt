@@ -7,5 +7,6 @@ namespace Infrastructure.DataAccess
     public interface IDistanceMatrixDtoStore
     {
         Task<ICollection<DistanceMatrixDto>> GetDistanceMatrixDtos(IEnumerable<MaintenanceStopDto> maintenanceStopDtos);
+        Task WriteDistanceMatrixDtos(IEnumerable<DistanceMatrixDtoStore> distanceMatrixDtoStores);
     }
 }
