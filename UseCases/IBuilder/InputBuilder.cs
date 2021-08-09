@@ -31,7 +31,7 @@ namespace UseCases
             var maintenanceStopDtos = await _stopDtoStore.GetMaintenanceStopDtos();
             _terminalBuilder.Build();
             _stopBuilder.BuildStops(maintenanceStopDtos);
-            _getDistanceMatrixApi.GetMatrix(apiKey);
+            await _getDistanceMatrixApi.GetMatrix(apiKey);
 
         }
 

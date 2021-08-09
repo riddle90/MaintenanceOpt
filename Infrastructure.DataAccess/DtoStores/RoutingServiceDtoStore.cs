@@ -24,7 +24,7 @@ namespace Infrastructure.DataAccess
         
         public async Task<ICollection<MaintenanceStopDto>> GetMaintenanceStopDtos()
         {
-            var fileName = "Mainteny_Sample_Data_Elevators_1.csv"; //this._configuration["Filename"];
+            var fileName = "Mainteny_Sample_Data_Elevators.csv"; //this._configuration["Filename"];
             using (TextReader reader = await FileReader.GetReader(fileName))
             {
                 var configuration = new CsvConfiguration(CultureInfo.InvariantCulture)

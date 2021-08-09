@@ -1,7 +1,9 @@
+using System.Threading.Tasks;
+
 namespace Infrastructure.Repository.GoogleApis
 {
     public interface IGetDistanceMatrixApi
     {
-        void GetMatrix(string apiKey);
+        Task GetMatrix(string apiKey);
     }
 }

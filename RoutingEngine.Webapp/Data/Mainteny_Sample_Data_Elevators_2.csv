@@ -1,0 +1,401 @@
+Unit number,Catagory,Manufacturer,Address,ZIP Code,City,Phone,Customer,Customer ID,Contract number,Contract end,Last visit
+1,Fahreppe,Schindler,Albrechtstr. 020,10117,Berlin,281 64 73,Biotronik,21222,1000012,28/02/22,12/02/21
+2,Fassadenbefahranlage,Orona,An der Kolonnade 003-5,10117,Berlin,2291378,Vattenfall,21223,1000013,30/04/22,25/01/21
+3,Plattformlift,Schmitt,Anklamer Str. 038,10115,Berlin,030 48495184,Price Waterhouse Coopers,21224,1000014,28/02/22,27/02/21
+4,Plattformlift,Hyundai,Fehrbelliner Str. 080,10119,Berlin,449 32 38,Biotronik,21225,1000015,30/04/22,02/03/21
+5,Treppenlift,Lutz,Fischerinsel 008,10179,Berlin,201 37 88,Parexel International,21226,1000016,30/04/22,10/01/21
+6,Rolltor,Schindler,Französische Str. 016,10117,Berlin,208 92 14,Stephanus-Stiftung,21227,1000017,30/04/22,12/02/21
+7,Garagentor,Thyssenkrupp,Ziegelstr. 004- 9,10117,Berlin,209346651,BASF,21228,1000018,31/03/22,12/02/21
+8,Garagentor,Vestner,Friedrichstr. 129F,10117,Berlin,2824385,Ernst & Young,21229,1000019,31/12/22,10/01/21
+9,Aufzug,Johnsen,Gartenstr. 107,10115,Berlin,2828337,Gasag-Gruppe,21230,1000020,30/04/22,10/01/21
+10,Treppenlift,Brobeil,Habersaathstr. 013,10115,Berlin,2824496,Competence Call Center,21231,1000021,28/02/22,25/01/21
+11,Treppenlift,Kone,Lichtenberger Str. 032-33,10179,Berlin,2492179,Securitas Sicherheitsdienste,21232,1000022,31/12/22,18/03/21
+12,Rolltor,Lutz,Jerusalemer Str. 010,10117,Berlin,20216803,Ikea Deutschland,21233,1000023,28/02/22,18/03/21
+13,Garagentor,Mitsubishi,Kleine Auguststr. 011-10,10119,Berlin,2826045,Deutsche Bahn (inkl. S-Bahn Berlin),21234,1000024,31/03/22,02/03/21
+14,Fluggastbrücke,Schindler,Max-Beer-Str. 024-26,10119,Berlin,2476849,Deutsches Rotes Kreuz,21235,1000025,28/02/22,18/03/21
+15,Plattformlift,Osma,Mollstr. 007A,10178,Berlin,241 91 56,Bosch,21236,1000026,31/12/22,10/01/21
+16,Plattformlift,Orba,Jägerstr. 025,10117,Berlin,8173856,Berliner Glas,21237,1000027,28/02/22,02/03/21
+17,Drehtür,Hitachi,Leipziger Str. 047,10117,Berlin,83176995,AWO,21238,1000028,30/04/22,25/01/21
+18,Sonstige,Schindler,Rheinsberger Str. 034- 35,10435,Berlin,449 34 59,Daimler,21239,1000029,28/02/22,27/02/21
+19,Garagentor,Kone,Rückerstr. 002,10119,Berlin,283057224,Competence Call Center,21240,1000030,31/03/22,25/01/21
+20,Fahrsteig,Thyssenkrupp,Schmidstr. 002,10179,Berlin,2794009,McDonald's,21241,1000031,30/04/22,25/01/21
+21,Rolltor,Osma,Sebastianstr. 022,10179,Berlin,2792668,Sankt Gertrauden-Krankenhaus,21242,1000032,31/03/22,18/03/21
+22,Autoparksystem,Vestner,Sebastianstr. 023,10179,Berlin,279 22 10,Zalando,21243,1000033,31/12/22,18/03/21
+23,Treppenlift,Johnsen,Veteranenstr. 010,10119,Berlin,47378193,Berliner Stadtreinigungsbetriebe BSR,21244,1000034,31/03/22,10/01/21
+24,Sonstige,Mitsubishi,Weydemeyerstr. 020/21,10178,Berlin,2419151,Volkssolidarität Berlin,21245,1000035,30/04/22,18/03/21
+25,Sonstige,Orba,Kastanienallee 063A,10119,Berlin,449 72 89,"Edeka (inkl. Thürmann, Netto)",21246,1000036,30/04/22,27/02/21
+26,Fahreppe,Lutz,Elisabethkirchstr. 021,10115,Berlin,449 65 27,Deutsche Bahn (inkl. S-Bahn Berlin),21247,1000037,28/02/22,10/01/21
+27,Aufzug,Otis,Griebenowstr. 016,10435,Berlin,449 04 16,"Edeka (inkl. Thürmann, Netto)",21248,1000038,31/03/22,25/01/21
+28,Fluggastbrücke,Otis,Große Hamburger Str. 028,10115,Berlin,24342439,Galeria Karstadt Kaufhof,21249,1000039,28/02/22,10/01/21
+29,Garagentor,Orba,Mohrenstr. 007,10117,Berlin,030 51055655,Deutsche Telekom,21250,1000040,31/12/22,02/03/21
+30,Sonstige,Vestner,Habersaathstr. 005,10115,Berlin,282 35 35,Biotronik,21251,1000041,30/04/22,25/01/21
+31,Fahreppe,Orba,Eichendorffstr. 017,10115,Berlin,41716928,Berliner Glas,21252,1000042,30/04/22,25/01/21
+32,Aufzug,Osma,Wolliner Str. 060,10435,Berlin,030 5471 3948,Messe Berlin,21253,1000043,31/12/22,25/01/21
+33,Fahrsteig,Thyssenkrupp,Fürstenberger Str. 004,10435,Berlin,4496657,Deutsches Herzzentrum Berlin,21254,1000044,31/03/22,27/02/21
+34,Fassadenbefahranlage,Johnsen,Strelitzer Str. 071,10115,Berlin,,Helios Kliniken,21255,1000045,28/02/22,25/01/21
+35,Drehtür,Thyssenkrupp,Krausnickstr. 003A,10115,Berlin,247 92 52,Delivery Hero,21256,1000046,31/03/22,02/03/21
+36,Drehtür,Mitsubishi,Anklamer Str. 046,10115,Berlin,4849 1840,Daimler,21257,1000047,31/03/22,25/01/21
+37,Aufzug,Otis,Anklamer Str. 029(Seitenflügel/Quergebäude),10115,Berlin,4627116,Deutsche Post DHL,21258,1000048,31/12/22,25/01/21
+38,Laderampe,Johnsen,Voßstr. 012,10117,Berlin,030 51055655,Berliner Wasserbetriebe,21259,1000049,31/03/22,25/01/21
+39,Fassadenbefahranlage,Hyundai,Zionskirchstr. 049,10119,Berlin,40006900,Gegenbauer,21260,1000050,31/12/22,12/02/21
+40,Rolltor,Orona,Krausnickstr. 011,10115,Berlin,27596089,IAV,21261,1000051,31/12/22,25/01/21
+41,Fahreppe,Hitachi,Leipziger Str. 041,10117,Berlin,70084892,Daimler,21262,1000052,31/12/22,12/02/21
+42,Aufzug,Mitsubishi,Anklamer Str. 029,10115,Berlin,41 71 40 50,Ernst & Young,21263,1000053,30/04/22,10/01/21
+43,Rauchabzug,Orona,Linienstr. 122-124,10115,Berlin,887273918,Daimler,21264,1000054,30/04/22,10/01/21
+44,Rauchabzug,Lutz,Brunnenstr. 033,10115,Berlin,405046925,Stephanus-Stiftung,21265,1000055,31/12/22,25/01/21
+45,Rauchabzug,Johnsen,Reinhardtstr. 031,10117,Berlin,8520056,AWO,21266,1000056,28/02/22,25/01/21
+46,Aufzug,Orba,Torstr. 134,10119,Berlin,24628214,H&M Hennes & Mauritz,21267,1000057,31/12/22,02/03/21
+47,Fassadenbefahranlage,Brobeil,Glinkastr. 024,10117,Berlin,208 92 14,GRG. Die Gebäudereiniger,21268,1000058,28/02/22,10/01/21
+48,Fluggastbrücke,Johnsen,Brunnenstr. 030,10119,Berlin,15775764079,Unfallkrankenhaus Berlin,21269,1000059,28/02/22,25/01/21
+49,Sonstige,Hyundai,Anklamer Str. 022,10115,Berlin,0,Allianz,21270,1000060,28/02/22,10/01/21
+50,Autoparksystem,Otis,Adalbertstr. 024,10179,Berlin,3040054204,HZB Helmholtz-Zentrum Berlin für Materialien und Energie,21271,1000061,31/03/22,12/02/21
+51,Laderampe,Vestner,Borsigstr. 032/34,10115,Berlin,030 28500856,S-Bahn Berlin,21272,1000062,28/02/22,12/02/21
+52,Rolltor,Schmitt,Garnisonkirchplatz 002,10178,Berlin,24723369,Ernst & Young,21273,1000063,31/03/22,27/02/21
+53,Rauchabzug,Vestner,Wilhelmstr. 050,10117,Berlin,208 92 14,Wisag Facility Service Holding,21274,1000064,30/04/22,25/01/21
+54,Fahrsteig,Otis,Köpenicker Str. 045,10179,Berlin,24088849,Volkswagen,21275,1000065,28/02/22,02/03/21
+55,Aufzug,Brobeil,Invalidenstr. 130,10115,Berlin,688332340,Ernst & Young,21276,1000066,31/03/22,27/02/21
+56,Fahreppe,Vestner,Wilhelmstr. 054,10117,Berlin,208 92 14,IAV,21277,1000067,31/03/22,18/03/21
+57,Rolltor,Johnsen,Garnisonkirchplatz 002,10178,Berlin,24723369,Alexianer,21278,1000068,30/04/22,12/02/21
+58,Automatiktür,Kone,Ziegelstr. 027,10117,Berlin,24723369,S-Bahn Berlin,21279,1000069,31/12/22,12/02/21
+59,Fassadenbefahranlage,Vestner,Rheinsberger Str. 056,10115,Berlin,48496222,Berliner Sparkasse,21280,1000070,28/02/22,18/03/21
+60,Drehtür,Lutz,Chausseestr. 050B,10115,Berlin,0179 5368246,August Storck,21281,1000071,28/02/22,12/02/21
+61,Fluggastbrücke,Otis,Fehrbelliner Str. 051,10119,Berlin,3048492077,Randstad Deutschland,21282,1000072,31/12/22,25/01/21
+62,Sonstige,Orona,Wilhelmine-Gemberg-Weg 010,10179,Berlin,030 92036752,Ikea Deutschland,21283,1000073,28/02/22,10/01/21
+63,Sonstige,Hitachi,Ackerstr. 003,10115,Berlin,200 89 044,Berliner Werkstätten für Menschen mit Behinderung BWB,21284,1000074,31/12/22,18/03/21
+64,Plattformlift,Thyssenkrupp,Steinstr. 027,10119,Berlin,40006900,Evangelisches Krankenhaus Königin Elisabeth Herzberge,21285,1000075,31/03/22,12/02/21
+65,Plattformlift,Johnsen,Kapelle-Ufer 002,10117,Berlin,1603758951,Vitanas Gruppe,21286,1000076,31/12/22,25/01/21
+66,Treppenlift,Osma,Ziegelstr. 005- 7,10117,Berlin,93939-8620,Delivery Hero,21287,1000077,30/04/22,27/02/21
+67,Fluggastbrücke,Hitachi,Mohrenstr. 011,10117,Berlin,030 51055655,Piepenbrock Dienstleistungen,21288,1000078,31/12/22,02/03/21
+68,Fahreppe,Schmitt,Wadzeckstr. 004,10178,Berlin,40042021,HZB Helmholtz-Zentrum Berlin für Materialien und Energie,21289,1000079,31/03/22,27/02/21
+69,Drehtür,Otis,Jacobystr. 004,10179,Berlin,225027940,Lidl,21290,1000080,31/03/22,27/02/21
+70,Aufzug,Lutz,Brunnenstr. 033,10115,Berlin,30405046918,Deutsches Rotes Kreuz,21291,1000081,30/04/22,27/02/21
+71,Aufzug,Osma,Wilhelmstr. 088,10117,Berlin,47051700,Helios Kliniken,21292,1000082,31/12/22,25/01/21
+72,Autoparksystem,Hyundai,An der Kolonnade 002,10117,Berlin,47051691,Helios Kliniken,21293,1000083,28/02/22,02/03/21
+73,Rolltor,Johnsen,Invalidenstr. 103a,10115,Berlin,3505160,Deutsche Bank,21294,1000084,28/02/22,02/03/21
+74,Rauchabzug,Hitachi,Chausseestr. 084,10115,Berlin,120 83 21 22 / -23,Postbank - eine Niederlassung der Deutsche Bank AG,21295,1000085,31/12/22,25/01/21
+75,Fluggastbrücke,Orona,Alexandrinenstr. 056,10179,Berlin,28444482,Bio Company,21296,1000086,30/04/22,25/01/21
+76,Laderampe,Schmitt,Hirtenstr. 012,10178,Berlin,21725432,Mosaik Unternehmensverbund,21297,1000087,28/02/22,25/01/21
+77,Autoparksystem,Schmitt,Leipziger Str. 013,10117,Berlin,20075362,Deutsche Telekom,21298,1000088,31/12/22,27/02/21
+78,Autoparksystem,Hyundai,Charitéplatz 001tatsächlich: Hufelandweg 12A,10117,Berlin,20095246,Dirk Rossmann,21299,1000089,28/02/22,02/03/21
+79,Garagentor,Vestner,An der Kieler Brücke 031,10115,Berlin,1736195539,Kaufland,21300,1000090,28/02/22,27/02/21
+80,Treppenlift,Osma,Bredowstr. 027A,10551,Berlin,3989 5301,Kaufland,21301,1000091,30/04/22,10/01/21
+81,Plattformlift,Thyssenkrupp,Calvinstr. 016,10557,Berlin,3948 0196,Wisag Facility Service Holding,21302,1000092,31/03/22,02/03/21
+82,Rolltor,Brobeil,Emdener Str. 011-13,10551,Berlin,39408573,Berliner Volksbank,21303,1000093,30/04/22,18/03/21
+83,Fahreppe,Thyssenkrupp,Havelberger Str. 021,10559,Berlin,39494392,Vivantes-Netzwerk für Gesundheit,21304,1000094,30/04/22,02/03/21
+84,Laderampe,Vestner,Klopstockstr. 029,10557,Berlin,3640 9507,Amazon,21305,1000095,30/04/22,25/01/21
+85,Drehtür,Thyssenkrupp,Alt-Moabit 025,10559,Berlin,39889094,Volkswagen,21306,1000096,28/02/22,12/02/21
+86,Plattformlift,Lutz,Birkenstr. 060,10559,Berlin,44724023,S-Bahn Berlin,21307,1000097,31/03/22,10/01/21
+87,Rauchabzug,Kone,Pohlstr. 087,10785,Berlin,(030) 23005178,Berliner Sparkasse,21308,1000098,31/03/22,27/02/21
+88,Treppenlift,Orba,Rathenower Str. 015,10559,Berlin,74780168,Vivantes-Netzwerk für Gesundheit,21309,1000099,31/12/22,02/03/21
+89,Garagentor,Vestner,Ottostr. 016,10555,Berlin,3927979,Price Waterhouse Coopers,21310,1000100,28/02/22,27/02/21
+90,Fahreppe,Johnsen,Rostocker Str. 032A,10553,Berlin,3948 0513,Wisag Facility Service Holding,21311,1000101,31/12/22,10/01/21
+91,Drehtür,Orba,Wikingerufer 009,10555,Berlin,3912489,AOK,21312,1000102,28/02/22,12/02/21
+92,Automatiktür,Orona,Holsteiner Ufer 012,10557,Berlin,36409506,Messe Berlin,21313,1000103,28/02/22,12/02/21
+93,Fahrsteig,Orona,Paulstr. 020D,10557,Berlin,22635770,Renafan,21314,1000104,28/02/22,25/01/21
+94,Fahrsteig,Orona,Bandelstr. 041,10559,Berlin,39783811,AOK,21315,1000105,28/02/22,02/03/21
+95,Fahrsteig,Kone,Kluckstr. 029,10785,Berlin,25799626,Berlin-Chemie,21316,1000106,30/04/22,10/01/21
+96,Garagentor,Orba,Alt-Moabit 117,10559,Berlin,39805060,Unionhilfswerk Unternehmensverbund,21317,1000107,30/04/22,10/01/21
+97,Fahreppe,Orona,Lützowstr. 083- 85 (Zugang Pohlstraße 62),10785,Berlin,261 89 50,Berliner Glas,21318,1000108,31/12/22,25/01/21
+98,Fahreppe,Lutz,Turmstr. 071,10551,Berlin,397 41 995,Vattenfall,21319,1000109,28/02/22,10/01/21
+99,Automatiktür,Kone,Elberfelder Str. 018,10555,Berlin,391 45 40,Zalando,21320,1000110,30/04/22,27/02/21
+100,Autoparksystem,Lutz,Otto-von-Bismarck-Allee 002,10557,Berlin,227-33395,MediamarktSaturn Deutschland,21321,1000111,30/04/22,12/02/21
+101,Treppenlift,Otis,Kirchstr. 022,10557,Berlin,3919187,Knorr-Bremse,21322,1000112,31/12/22,25/01/21
+102,Plattformlift,Hitachi,Quitzowstr. 136,10559,Berlin,395 75 78,KPMG,21323,1000113,28/02/22,25/01/21
+103,Aufzug,Orba,Lehrter Str. 040,10557,Berlin,39703022,Bayer,21324,1000114,31/12/22,18/03/21
+104,Fahreppe,Mitsubishi,Stephanstr. 017,10559,Berlin,396 78 15,Helios Kliniken,21325,1000115,28/02/22,12/02/21
+105,Sonstige,Schmitt,Wilsnacker Str. 014,10559,Berlin,3945859,Ernst & Young,21326,1000116,30/04/22,18/03/21
+106,Fahreppe,Mitsubishi,Rostocker Str. 026,10553,Berlin,39480386,Deutsche Kreditbank,21327,1000117,30/04/22,27/02/21
+107,Garagentor,Orba,Bochumer Str. 011,10555,Berlin,3922126,Steinecke's Heidebrot Backstube,21328,1000118,28/02/22,12/02/21
+108,Aufzug,Schindler,Stromstr. 058,10551,Berlin,3951860,Berliner Sparkasse,21329,1000119,30/04/22,02/03/21
+109,Automatiktür,Lutz,Flemingstr. 011,10557,Berlin,3921261,Evangelisches Krankenhaus Königin Elisabeth Herzberge,21330,1000120,30/04/22,25/01/21
+110,Aufzug,Vestner,Waldstr. 015,10551,Berlin,396 26 64,Bosch,21331,1000121,28/02/22,18/03/21
+111,Aufzug,Orba,Calvinstr. 013,10557,Berlin,3935555,Alexianer,21332,1000122,28/02/22,02/03/21
+112,Fassadenbefahranlage,Hitachi,Wilsnacker Str. 062,10559,Berlin,3946069,Randstad Deutschland,21333,1000123,30/04/22,27/02/21
+113,Fassadenbefahranlage,Orona,Lübecker Str. 013,10559,Berlin,030/3948183,Knorr-Bremse,21334,1000124,31/03/22,25/01/21
+114,Fahrsteig,Otis,Quitzowstr. 125,10559,Berlin,395 30 52,Degewo,21335,1000125,30/04/22,18/03/21
+115,Rauchabzug,Johnsen,Emdener Str. 028,10551,Berlin,3951367,Ergo Group,21336,1000126,28/02/22,12/02/21
+116,Treppenlift,Schindler,Huttenstr. 022A,10553,Berlin,3443521,Ernst & Young,21337,1000127,30/04/22,27/02/21
+117,Rauchabzug,Hitachi,Lützowstr. 061,10785,Berlin,230 05 177,Vivantes-Netzwerk für Gesundheit,21338,1000128,31/12/22,02/03/21
+118,Plattformlift,Brobeil,Lüneburger Str. 014,10557,Berlin,394 80 391,Ernst & Young,21339,1000129,30/04/22,10/01/21
+119,Fassadenbefahranlage,Vestner,Huttenstr. 031,10553,Berlin,349 58 38,Volkssolidarität Berlin,21340,1000130,30/04/22,12/02/21
+120,Plattformlift,Schmitt,Lübecker Str. 032,10559,Berlin,3965210,Paul Gerhardt Diakonie,21341,1000131,28/02/22,25/01/21
+121,Rolltor,Thyssenkrupp,Katharina-Heinroth-Ufer 001,10787,Berlin,26931422,Netto Marken-Discount,21342,1000132,31/03/22,27/02/21
+122,Fahreppe,Brobeil,Bissingzeile 01519,10785,Berlin,264 1248,"Edeka (inkl. Thürmann, Netto)",21343,1000133,28/02/22,25/01/21
+123,Rolltor,Mitsubishi,Emdener Str. 047,10551,Berlin,396 20 71,Accor,21344,1000134,31/12/22,18/03/21
+124,Autoparksystem,Orba,Alt-Moabit 133B,10557,Berlin,392 44 65,"Edeka (inkl. Thürmann, Netto)",21345,1000135,31/03/22,12/02/21
+125,Autoparksystem,Schindler,Waldstr. 042,10551,Berlin,39877643,Berliner Glas,21346,1000136,30/04/22,12/02/21
+126,Sonstige,Thyssenkrupp,Birkenstr. 033,10551,Berlin,3954982,Wisag Facility Service Holding,21347,1000137,30/04/22,10/01/21
+127,Fahrsteig,Hitachi,Bochumer Str. 002,10555,Berlin,399 40 32,Axel Springer,21348,1000138,30/04/22,10/01/21
+128,Fahreppe,Otis,Hansa-Ufer 003A,10555,Berlin,34620664,H&M Hennes & Mauritz,21349,1000139,31/12/22,10/01/21
+129,Fluggastbrücke,Orba,Lützowplatz 001,10785,Berlin,2610 1890,Max-Delbrück-Centrum,21350,1000140,30/04/22,18/03/21
+130,Drehtür,Otis,Siemensstr. 010,10551,Berlin,39880470,Deutsche Bahn (inkl. S-Bahn Berlin),21351,1000141,30/04/22,10/01/21
+131,Plattformlift,Kone,Waldstr. 023,10551,Berlin,33099341,Deutsches Rotes Kreuz,21352,1000142,31/12/22,12/02/21
+132,Fahrsteig,Vestner,Siegmunds Hof 017a,10555,Berlin,939398480,August Storck,21353,1000143,31/12/22,10/01/21
+133,Treppenlift,Hyundai,Klopstockstr. 001,10557,Berlin,39746254,Deutsche Post DHL,21354,1000144,31/12/22,18/03/21
+134,Treppenlift,Otis,Lützowstr. 106,10785,Berlin,46 99 77 70,Ikea Deutschland,21355,1000145,31/03/22,02/03/21
+135,Automatiktür,Vestner,Wilsnacker Str. 040,10559,Berlin,39886617,Max-Delbrück-Centrum,21356,1000146,30/04/22,12/02/21
+136,Laderampe,Thyssenkrupp,Elberfelder Str. 019,10555,Berlin,52102116,Unfallkrankenhaus Berlin,21357,1000147,31/12/22,25/01/21
+137,Fluggastbrücke,Kone,Jagowstr. 028,10555,Berlin,3916129,Bauhaus,21358,1000148,30/04/22,27/02/21
+138,Automatiktür,Osma,Emdener Str. 056,10551,Berlin,98435840,Berliner Verkehrsbetriebe (BVG),21359,1000149,28/02/22,18/03/21
+139,Aufzug,Osma,Alt-Moabit 035,10555,Berlin,030 36726971,Deutsches Herzzentrum Berlin,21360,1000150,28/02/22,02/03/21
+140,Garagentor,Hitachi,Perleberger Str. 047,10559,Berlin,39881662,AOK,21361,1000151,31/12/22,25/01/21
+141,Laderampe,Schindler,Spenerstr. 037,10557,Berlin,63966448,Franz Cornelsen Bildungsgruppe,21362,1000152,30/04/22,02/03/21
+142,Fahreppe,Otis,Huttenstr. 021,10553,Berlin,34507967,Stephanus-Stiftung,21363,1000153,31/12/22,12/02/21
+143,Garagentor,Brobeil,Alt-Moabit 098,10559,Berlin,44724001,Securitas Sicherheitsdienste,21364,1000154,28/02/22,27/02/21
+144,Fahrsteig,Orba,Alt-Moabit 037,10555,Berlin,39839557,Unionhilfswerk Unternehmensverbund,21365,1000155,31/12/22,12/02/21
+145,Fassadenbefahranlage,Hyundai,Waldstr. 041,10551,Berlin,39877643,Ergo Group,21366,1000156,31/03/22,25/01/21
+146,Fahrsteig,Hitachi,Jagowstr. 010- 11,10555,Berlin,32304860,Evangelisches Krankenhaus Königin Elisabeth Herzberge,21367,1000157,30/04/22,27/02/21
+147,Garagentor,Vestner,Alt-Moabit 086,10555,Berlin,39840277,Accor,21368,1000158,31/03/22,12/02/21
+148,Fahreppe,Vestner,Kaiserin-Augusta-Allee 101,10553,Berlin,3049085470,Competence Call Center,21369,1000159,30/04/22,25/01/21
+149,Rolltor,Schindler,Elberfelder Str. 028,10555,Berlin,030/49089209,Messe Berlin,21370,1000160,31/12/22,25/01/21
+150,Rolltor,Schmitt,Erasmusstr. 007A,10553,Berlin,3957629,Price Waterhouse Coopers,21371,1000161,31/03/22,25/01/21
+151,Fluggastbrücke,Johnsen,Havelberger Str. 012,10559,Berlin,39405500,Berlin-Chemie,21372,1000162,30/04/22,27/02/21
+152,Autoparksystem,Kone,Heidestr. 003,10557,Berlin,3087 3740,PIN Mail,21373,1000163,31/03/22,02/03/21
+153,Garagentor,Mitsubishi,Lützowstr. 068,10785,Berlin,35050922,KPMG,21374,1000164,31/03/22,18/03/21
+154,Automatiktür,Lutz,Jagowstr. 018,10555,Berlin,39877643,IAV,21375,1000165,28/02/22,25/01/21
+155,Sonstige,Mitsubishi,Stephanstr. 053,10559,Berlin,26598704,Deutsche Lufthansa,21376,1000166,30/04/22,12/02/21
+156,Fahrsteig,Orona,Paulstr. 018,10557,Berlin,40748134,Volkswagen,21377,1000167,30/04/22,25/01/21
+157,Fahreppe,Schindler,Rostocker Str. 028,10553,Berlin,?030 40756202?,Gasag-Gruppe,21378,1000168,31/03/22,18/03/21
+158,Rolltor,Orba,Wiclefstr. 032,10551,Berlin,36460372,Price Waterhouse Coopers,21379,1000169,28/02/22,27/02/21
+159,Garagentor,Orona,Perleberger Str. 039,10559,Berlin,3965210,Ergo Group,21380,1000170,31/12/22,27/02/21
+160,Treppenlift,Brobeil,Lydia-Rabinowitsch-Str. 005,10557,Berlin,39818162,Steinecke's Heidebrot Backstube,21381,1000171,31/12/22,18/03/21
+161,Plattformlift,Otis,Klara-Franke-Str. 001,10557,Berlin,399 189 59,Unfallkrankenhaus Berlin,21382,1000172,31/03/22,10/01/21
+162,Fahrsteig,Hyundai,Hedwig-Porschütz-Str. 006,10557,Berlin,55462241,Berliner Volksbank,21383,1000173,31/12/22,25/01/21
+163,Garagentor,Orona,Wiclefstr. 006,10551,Berlin,,Max-Delbrück-Centrum,21384,1000174,30/04/22,10/01/21
+164,Fassadenbefahranlage,Schindler,Ackerstr. 060,13355,Berlin,34620620,Bayer,21385,1000175,31/12/22,02/03/21
+165,Rauchabzug,Mitsubishi,Brüsseler Str. 030,13353,Berlin,4541884,Deutsche Post DHL,21386,1000176,31/03/22,10/01/21
+166,Fahrsteig,Thyssenkrupp,Ramlerstr. 009,13355,Berlin,43207225,Evangelisches Krankenhaus Königin Elisabeth Herzberge,21387,1000177,30/04/22,12/02/21
+167,Garagentor,Hitachi,Edinburger Str. 038,13349,Berlin,4524291,Ikea Deutschland,21388,1000178,31/12/22,10/01/21
+168,Fassadenbefahranlage,Otis,Ghanastr. 013,13351,Berlin,4518047,Competence Call Center,21389,1000179,31/12/22,02/03/21
+169,Autoparksystem,Brobeil,Graunstr. 011A,13355,Berlin,443 83 451,MediamarktSaturn Deutschland,21390,1000180,31/12/22,18/03/21
+170,Aufzug,Thyssenkrupp,Gottschedstr. 027,13357,Berlin,4606 0825,AOK,21391,1000181,31/03/22,25/01/21
+171,Autoparksystem,Schindler,Reinickendorfer Str. 098,13347,Berlin,52134200,Biotronik,21392,1000182,30/04/22,12/02/21
+172,Laderampe,Schmitt,Schönwalder Str. 019A,13347,Berlin,43207212,Parexel International,21393,1000183,30/04/22,27/02/21
+173,Automatiktür,Mitsubishi,Schwedenstr. 009A,13359,Berlin,48478836,Lidl,21394,1000184,31/03/22,18/03/21
+174,Automatiktür,Thyssenkrupp,Nordbahnstr. 015,13359,Berlin,4947236,Stephanus-Stiftung,21395,1000185,31/12/22,27/02/21
+175,Fahrsteig,Hitachi,Wattstr. 016,13355,Berlin,443 83 341,Deutsche Bahn (inkl. S-Bahn Berlin),21396,1000186,30/04/22,27/02/21
+176,Automatiktür,Vestner,Gottschedstr. 028,13357,Berlin,4606 0810,Volkswagen,21397,1000187,31/12/22,27/02/21
+177,Rauchabzug,Brobeil,Lynarstr. 012,13353,Berlin,4541972,Securitas Sicherheitsdienste,21398,1000188,31/03/22,18/03/21
+178,Rolltor,Vestner,Freienwalder Str. 019C,13359,Berlin,4946612,Vivantes-Netzwerk für Gesundheit,21399,1000189,30/04/22,12/02/21
+179,Rauchabzug,Otis,Togostr. 067,13351,Berlin,451 90 76,GRG. Die Gebäudereiniger,21400,1000190,28/02/22,10/01/21
+180,Autoparksystem,Orona,Wiesenstr. 049-50,13357,Berlin,4606 0490,PIN Mail,21401,1000191,28/02/22,25/01/21
+181,Sonstige,Hitachi,Wolgaster Str. 004-2,13355,Berlin,467 76 4920,Studierendenwerk Berlin,21402,1000192,30/04/22,02/03/21
+182,Automatiktür,Lutz,Koloniestr. 024A,13359,Berlin,493 50 18,3B Dienstleistung Deutschland,21403,1000193,31/12/22,18/03/21
+183,Laderampe,Brobeil,Dubliner Str. 029,13349,Berlin,452 11 78,IAV,21404,1000194,31/03/22,02/03/21
+184,Fahrsteig,Mitsubishi,Ruheplatzstr. 013,13347,Berlin,34620607,Bauhaus,21405,1000195,31/12/22,02/03/21
+185,Automatiktür,Osma,Afrikanische Str. 028,13351,Berlin,4502 3277,Deutsche Telekom,21406,1000196,31/12/22,27/02/21
+186,Sonstige,Brobeil,Bornholmer Str. 044,13359,Berlin,4998 8690,Siemens,21407,1000197,31/03/22,27/02/21
+187,Laderampe,Osma,Stettiner Str. 021,13357,Berlin,34620606,Sankt Gertrauden-Krankenhaus,21408,1000198,30/04/22,25/01/21
+188,Aufzug,Schmitt,Petersallee 029,13351,Berlin,35128686/85,Deutsche Telekom,21409,1000199,31/03/22,02/03/21
+189,Garagentor,Lutz,Nazarethkirchstr. 050,13347,Berlin,456 62 91,Deutsche Post DHL,21410,1000200,31/03/22,12/02/21
+190,Aufzug,Orona,Seestr. 035,13353,Berlin,453 63 07,Deutsche Bank,21411,1000201,30/04/22,10/01/21
+191,Fassadenbefahranlage,Vestner,Soldiner Str. 021,13359,Berlin,493 62 62,H&M Hennes & Mauritz,21412,1000202,31/12/22,25/01/21
+192,Sonstige,Orona,Sprengelstr. 035,13353,Berlin,454 35 59,Rewe Markt GmbH,21413,1000203,31/03/22,12/02/21
+193,Rolltor,Lutz,Feldstr. 020,13355,Berlin,4635971,Degewo,21414,1000204,31/12/22,10/01/21
+194,Autoparksystem,Johnsen,Hochstädter Str. 014,13347,Berlin,4551130,Deutsche Post DHL,21415,1000205,28/02/22,18/03/21
+195,Fassadenbefahranlage,Hyundai,Reinickendorfer Str. 062,13347,Berlin,455 66 50,Berliner Werkstätten für Menschen mit Behinderung BWB,21416,1000206,31/12/22,27/02/21
+196,Fahreppe,Schindler,Bastianstr. 018,13357,Berlin,4655897,Steinecke's Heidebrot Backstube,21417,1000207,31/03/22,12/02/21
+197,Rolltor,Mitsubishi,Eulerstr. 010,13357,Berlin,4948076,H&M Hennes & Mauritz,21418,1000208,28/02/22,18/03/21
+198,Plattformlift,Brobeil,Sprengelstr. 033,13353,Berlin,4536620,Berliner Stadtreinigungsbetriebe BSR,21419,1000209,31/12/22,25/01/21
+199,Fluggastbrücke,Schmitt,Fehmarner Str. 014,13353,Berlin,-,"Edeka (inkl. Thürmann, Netto)",21420,1000210,31/12/22,10/01/21
+200,Fahrsteig,Orba,Glasgower Str. 026,13349,Berlin,4514024,Allianz,21421,1000211,31/12/22,10/01/21
+201,Drehtür,Osma,Grüntaler Str. 008,13357,Berlin,27018926,Bio Company,21422,1000212,31/12/22,27/02/21
+202,Rolltor,Hyundai,Türkenstr. 005,13349,Berlin,451 91 30,Price Waterhouse Coopers,21423,1000213,30/04/22,02/03/21
+203,Drehtür,Mitsubishi,Lütticher Str. 005,13353,Berlin,98430863,Parexel International,21424,1000214,28/02/22,12/02/21
+204,Rolltor,Mitsubishi,Amsterdamer Str. 012,13347,Berlin,4562624,Lebenshilfe Berlin,21425,1000215,31/12/22,02/03/21
+205,Rolltor,Mitsubishi,Sparrstr. 019,13353,Berlin,453 30 76,Competence Call Center,21426,1000216,28/02/22,27/02/21
+206,Fluggastbrücke,Orona,Sparrstr. 020,13353,Berlin,453 90 38,Amazon,21427,1000217,31/03/22,18/03/21
+207,Rauchabzug,Lutz,Togostr. 078,13351,Berlin,451 20 76,Mosaik Unternehmensverbund,21428,1000218,28/02/22,12/02/21
+208,Fassadenbefahranlage,Orba,Türkenstr. 015,13349,Berlin,4514073,BT Berlin Transport,21429,1000219,31/03/22,12/02/21
+209,Rolltor,Lutz,Wiesenstr. 028,13357,Berlin,030 465 91 00,Berliner Verkehrsbetriebe (BVG),21430,1000220,31/03/22,18/03/21
+210,Fahrsteig,Brobeil,Sparrstr. 021,13353,Berlin,4533773,Parexel International,21431,1000221,31/12/22,12/02/21
+211,Fahreppe,Hyundai,Amsterdamer Str. 013,13347,Berlin,450 812 660,Volkssolidarität Berlin,21432,1000222,28/02/22,18/03/21
+212,Plattformlift,Mitsubishi,Wiesenstr. 025,13357,Berlin,462 20 76,Commerzbank,21433,1000223,28/02/22,12/02/21
+213,Aufzug,Otis,Afrikanische Str. 121,13351,Berlin,4528036,Ikea Deutschland,21434,1000224,30/04/22,18/03/21
+214,Garagentor,Mitsubishi,Müllerstr. 008,13353,Berlin,46812018,Randstad Deutschland,21435,1000225,30/04/22,02/03/21
+215,Drehtür,Hitachi,Schwedenstr. 003A,13357,Berlin,4656455,Deutsche Bank,21436,1000226,31/12/22,27/02/21
+216,Fluggastbrücke,Hyundai,Liebenwalder Str. 045,13347,Berlin,34620660,Vivantes-Netzwerk für Gesundheit,21437,1000227,31/12/22,10/01/21
+217,Sonstige,Lutz,Sparrstr. 022,13353,Berlin,0151/51391160,3B Dienstleistung Deutschland,21438,1000228,30/04/22,18/03/21
+218,Rolltor,Vestner,Stettiner Str. 056,13357,Berlin,4941049,Rewe Markt GmbH,21439,1000229,30/04/22,10/01/21
+219,Plattformlift,Orona,Stralsunder Str. 007,13355,Berlin,4642085,KPMG,21440,1000230,28/02/22,02/03/21
+220,Rauchabzug,Hitachi,Wollankstr. 061D,13359,Berlin,494 88 78,3B Dienstleistung Deutschland,21441,1000231,28/02/22,27/02/21
+221,Laderampe,Brobeil,Exerzierstr. 032A,13357,Berlin,4925650,Aldi,21442,1000232,30/04/22,12/02/21
+222,Laderampe,Mitsubishi,Swinemünder Str. 064,13355,Berlin,4606 8040,Knorr-Bremse,21443,1000233,31/03/22,12/02/21
+223,Fassadenbefahranlage,Osma,Oudenarder Str. 001B,13347,Berlin,4556960,KPMG,21444,1000234,30/04/22,12/02/21
+224,Fahrsteig,Kone,Soldiner Str. 033,13359,Berlin,493 58 05,Lidl,21445,1000235,28/02/22,12/02/21
+225,Fluggastbrücke,Lutz,Edinburger Str. 039,13349,Berlin,030 - 4536071,Messe Berlin,21446,1000236,28/02/22,10/01/21
+226,Fluggastbrücke,Hitachi,Seestr. 090,13347,Berlin,456 80 87,Berliner Glas,21447,1000237,28/02/22,18/03/21
+227,Rolltor,Brobeil,Grüntaler Str. 012,13357,Berlin,27018926,Lidl,21448,1000238,28/02/22,12/02/21
+228,Rauchabzug,Orona,Grüntaler Str. 034,13359,Berlin,494 71 63,Stadler Pankow,21449,1000239,30/04/22,10/01/21
+229,Plattformlift,Schindler,Neue Hochstr. 044,13347,Berlin,4614047,Berliner Stadtreinigungsbetriebe BSR,21450,1000240,30/04/22,02/03/21
+230,Drehtür,Hyundai,Malplaquetstr. 024,13347,Berlin,4559012,Allianz,21451,1000241,28/02/22,02/03/21
+231,Sonstige,Schindler,Amsterdamer Str. 019B,13347,Berlin,456 23 81,Deutsche Lufthansa,21452,1000242,28/02/22,10/01/21
+232,Automatiktür,Lutz,Zingster Str. 012,13357,Berlin,494 15 26,Max-Delbrück-Centrum,21453,1000243,28/02/22,25/01/21
+233,Plattformlift,Orba,Malplaquetstr. 037,13347,Berlin,80929277,Gegenbauer,21454,1000244,28/02/22,25/01/21
+234,Rauchabzug,Mitsubishi,Malplaquetstr. 010,13347,Berlin,455 86 36,Charité,21455,1000245,30/04/22,10/01/21
+235,Aufzug,Vestner,Antonstr. 019,13347,Berlin,4617000,KPMG,21456,1000246,30/04/22,18/03/21
+236,Laderampe,Orba,Swinemünder Str. 065,13355,Berlin,464 82 22,Bauhaus,21457,1000247,30/04/22,02/03/21
+237,Laderampe,Schmitt,Drontheimer Str. 023A,13359,Berlin,491 15 15,Accor,21458,1000248,31/12/22,27/02/21
+238,Treppenlift,Schmitt,Kurt-Schumacher-Damm 041,13405,Berlin,41700033,Berlin-Chemie,21459,1000249,30/04/22,25/01/21
+239,Fahreppe,Schmitt,Prinzenallee 024,13359,Berlin,4933088,Max-Delbrück-Centrum,21460,1000250,31/03/22,25/01/21
+240,Autoparksystem,Lutz,Osloer Str. 105D,13359,Berlin,49308814,Helios Kliniken,21461,1000251,31/03/22,18/03/21
+241,Rolltor,Osma,Liebenwalder Str. 044,13347,Berlin,45803777,Bauhaus,21462,1000252,28/02/22,18/03/21
+242,Garagentor,Vestner,Sternstr. 009,13359,Berlin,17622342474,Zalando,21463,1000253,31/03/22,10/01/21
+243,Sonstige,Kone,Gustav-Meyer-Allee 002,13355,Berlin,46404161,Sana Kliniken Berlin-Brandenburg,21464,1000254,31/12/22,02/03/21
+244,Plattformlift,Orba,Brüsseler Str. 038,13353,Berlin,45026935,Netto Marken-Discount,21465,1000255,31/12/22,02/03/21
+245,Treppenlift,Schindler,Türkenstr. 020,13349,Berlin,2903 53 30,August Storck,21466,1000256,31/12/22,25/01/21
+246,Treppenlift,Johnsen,Türkenstr. 004,13349,Berlin,43722954,S-Bahn Berlin,21467,1000257,31/12/22,02/03/21
+247,Aufzug,Orona,Tegeler Str. 006,13353,Berlin,4606 7089,Degewo,21468,1000258,31/12/22,02/03/21
+248,Fluggastbrücke,Lutz,Grüntaler Str. 006,13357,Berlin,27018926,Berliner Wasserbetriebe,21469,1000259,31/03/22,18/03/21
+249,Aufzug,Otis,Nazarethkirchstr. 049,13347,Berlin,98521448,BASF,21470,1000260,28/02/22,25/01/21
+250,Drehtür,Schmitt,Augustenburger Platz 001,13353,Berlin,817 99 165,Evangelisches Krankenhaus Königin Elisabeth Herzberge,21471,1000261,31/12/22,02/03/21
+251,Treppenlift,Orba,Ofener Str. 004,13349,Berlin,34628728,PIN Mail,21472,1000262,30/04/22,02/03/21
+252,Plattformlift,Orona,Ackerstr. 076,13355,Berlin,467986315,GRG. Die Gebäudereiniger,21473,1000263,31/12/22,18/03/21
+253,Garagentor,Orba,Triftstr. 067,13353,Berlin,93939-8490,Gegenbauer,21474,1000264,31/03/22,25/01/21
+254,Fahrsteig,Johnsen,Tegeler Str. 044,13353,Berlin,4538849,3B Dienstleistung Deutschland,21475,1000265,30/04/22,27/02/21
+255,Fahreppe,Osma,Ackerstr. 104,13355,Berlin,65706645,Price Waterhouse Coopers,21476,1000266,30/04/22,18/03/21
+256,Automatiktür,Orona,Groninger Str. 032,13347,Berlin,81799940,PIN Mail,21477,1000267,31/03/22,27/02/21
+257,Garagentor,Otis,Eulerstr. 019A,13357,Berlin,50597358,Renafan,21478,1000268,28/02/22,10/01/21
+258,Plattformlift,Brobeil,Bastianstr. 021,13357,Berlin,46061094,Deutsche Bahn (inkl. S-Bahn Berlin),21479,1000269,30/04/22,27/02/21
+259,Automatiktür,Otis,Malplaquetstr. 041,13347,Berlin,50564222,Deutsche Telekom,21480,1000270,30/04/22,10/01/21
+260,Fassadenbefahranlage,Orba,Genter Str. 024,13353,Berlin,030-81010422,Galeria Karstadt Kaufhof,21481,1000271,30/04/22,25/01/21
+261,Aufzug,Johnsen,Bristolstr. 019,13349,Berlin,25322324,Zalando,21482,1000272,28/02/22,25/01/21
+262,Treppenlift,Hyundai,Plantagenstr. 009,13347,Berlin,030 56978795,Stadler Pankow,21483,1000273,28/02/22,27/02/21
+263,Drehtür,Schmitt,Groninger Str. 034,13347,Berlin,81799940,Kaufland,21484,1000274,30/04/22,10/01/21
+264,Autoparksystem,Kone,Schulstr. 052-53,13347,Berlin,81476961,Evangelisches Krankenhaus Königin Elisabeth Herzberge,21485,1000275,31/03/22,18/03/21
+265,Autoparksystem,Hyundai,Sparrstr. 026,13353,Berlin,030 41997418,Steinecke's Heidebrot Backstube,21486,1000276,31/12/22,25/01/21
+266,Fluggastbrücke,Thyssenkrupp,Glasgower Str. 025,13349,Berlin,60944034,EJF,21487,1000277,28/02/22,10/01/21
+267,Garagentor,Johnsen,Grüntaler Str. 030,13357,Berlin,53164489,3B Dienstleistung Deutschland,21488,1000278,28/02/22,27/02/21
+268,Drehtür,Kone,Wriezener Str. 043,13359,Berlin,64079141,Galeria Karstadt Kaufhof,21489,1000279,30/04/22,27/02/21
+269,Laderampe,Johnsen,Prinzenallee 045C,13359,Berlin,68816420,"Edeka (inkl. Thürmann, Netto)",21490,1000280,30/04/22,27/02/21
+270,Fluggastbrücke,Osma,Zingster Str. 008- 10,13357,Berlin,4941526,AWO,21491,1000281,30/04/22,27/02/21
+271,Fahreppe,Vestner,Eulerstr. 018,13357,Berlin,42084424,Steinecke's Heidebrot Backstube,21492,1000282,30/04/22,25/01/21
+272,Fahrsteig,Schmitt,Ofener Str. 003A,13349,Berlin,30345947,Steinecke's Heidebrot Backstube,21493,1000283,30/04/22,27/02/21
+273,Fahreppe,Hitachi,Koloniestr. 007- 8,13357,Berlin,3048478294,Berliner Volksbank,21494,1000284,30/04/22,10/01/21
+274,Rauchabzug,Orba,Transvaalstr. 020,13351,Berlin,62967130,Gegenbauer,21495,1000285,31/03/22,27/02/21
+275,Fluggastbrücke,Osma,Malplaquetstr. 035,13347,Berlin,29685555,Securitas Sicherheitsdienste,21496,1000286,31/03/22,18/03/21
+276,Fahrsteig,Mitsubishi,Stettiner Str. 008,13357,Berlin,030 95611311,Deutsche Telekom,21497,1000287,31/03/22,12/02/21
+277,Drehtür,Lutz,Burgsdorfstr. 013,13353,Berlin,91443202,Aldi,21498,1000288,31/12/22,18/03/21
+278,Garagentor,Otis,Exerzierstr. 026,13357,Berlin,33848511,Deutsche Kreditbank,21499,1000289,28/02/22,25/01/21
+279,Garagentor,Otis,Tegeler Str. 013,13353,Berlin,(030) 45797887,Alexianer,21500,1000290,30/04/22,12/02/21
+280,Fassadenbefahranlage,Johnsen,Soldiner Str. 070/71,13359,Berlin,030/92280767,Randstad Deutschland,21501,1000291,31/12/22,27/02/21
+281,Sonstige,Mitsubishi,Ofener Str. 003,13349,Berlin,12028791,Bayer,21502,1000292,31/03/22,18/03/21
+282,Drehtür,Schmitt,Stralsunder Str. 004,13355,Berlin,4642085,Renafan,21503,1000293,31/03/22,27/02/21
+283,Garagentor,Lutz,Gerichtstr. 040,13347,Berlin,51307508,Allianz,21504,1000294,30/04/22,18/03/21
+284,Garagentor,Hyundai,Badstr. 012,13357,Berlin,49988084,Berliner Werkstätten für Menschen mit Behinderung BWB,21505,1000295,31/12/22,12/02/21
+285,Fahrsteig,Hyundai,Rügener Str. 001- 3,13355,Berlin,27018892,Berliner Volksbank,21506,1000296,31/03/22,12/02/21
+286,Plattformlift,Thyssenkrupp,Seestr. 062,13347,Berlin,92363306,Parexel International,21507,1000297,31/12/22,02/03/21
+287,Treppenlift,Schmitt,Reinickendorfer Str. 030,13347,Berlin,176 31483285,Competence Call Center,21508,1000298,28/02/22,27/02/21
+288,Plattformlift,Hitachi,Reinickendorfer Str. 110A,13347,Berlin,469064150,IAV,21509,1000299,28/02/22,27/02/21
+289,Autoparksystem,Brobeil,Soldiner Str. 065/66,13359,Berlin,94043452,3B Dienstleistung Deutschland,21510,1000300,31/12/22,10/01/21
+290,Automatiktür,Lutz,Usedomer Str. 023,13355,Berlin,43205419,H&M Hennes & Mauritz,21511,1000301,31/03/22,18/03/21
+291,Garagentor,Mitsubishi,Barfusstr. 013,13349,Berlin,45082694,August Storck,21512,1000302,31/03/22,25/01/21
+292,Treppenlift,Mitsubishi,Müllerstr. 056-58,13349,Berlin,45005119,Knorr-Bremse,21513,1000303,30/04/22,18/03/21
+293,Laderampe,Vestner,Lüderitzstr. 003,13351,Berlin,49088582,EJF,21514,1000304,31/12/22,02/03/21
+294,Sonstige,Mitsubishi,Sparrstr. 003A,13353,Berlin,0157 37689421,Wisag Facility Service Holding,21515,1000305,31/03/22,10/01/21
+295,Rolltor,Lutz,Prinz-Eugen-Str. 008,13347,Berlin,23888641,Competence Call Center,21516,1000306,31/03/22,10/01/21
+296,Plattformlift,Orona,Demminer Str. 005,13355,Berlin,23924097,Evangelisches Krankenhaus Königin Elisabeth Herzberge,21517,1000307,28/02/22,10/01/21
+297,Fahrsteig,Orona,Kongostr. 046,13351,Berlin,45082126,Unfallkrankenhaus Berlin,21518,1000308,28/02/22,02/03/21
+298,Fassadenbefahranlage,Johnsen,Otawistr. 027,13351,Berlin,55526507,Galeria Karstadt Kaufhof,21519,1000309,31/03/22,12/02/21
+299,Treppenlift,Lutz,Sparrstr. 025,13353,Berlin,030 41997441,Dirk Rossmann,21520,1000310,31/12/22,12/02/21
+300,Garagentor,Osma,Reinickendorfer Str. 099,13347,Berlin,92353514,Daimler,21521,1000311,30/04/22,25/01/21
+301,Plattformlift,Lutz,Edinburger Str. 013,13349,Berlin,55247740,Alexianer,21522,1000312,28/02/22,25/01/21
+302,Fahrsteig,Osma,Adolfstr. 021,13347,Berlin,23888641,Allianz,21523,1000313,30/04/22,18/03/21
+303,Aufzug,Lutz,Schönwalder Str. 017,13347,Berlin,46062745,Deutsche Post DHL,21524,1000314,31/12/22,18/03/21
+304,Fassadenbefahranlage,Mitsubishi,Reinickendorfer Str. 032,13347,Berlin,55595073?,Amazon,21525,1000315,28/02/22,12/02/21
+305,Automatiktür,Schindler,Brunnenstr. 085,13355,Berlin,80961895,Deutsches Herzzentrum Berlin,21526,1000316,31/12/22,18/03/21
+306,Fahrsteig,Mitsubishi,Brunnenstr. 085,13355,Berlin,22494984,IAV,21527,1000317,31/03/22,02/03/21
+307,Fassadenbefahranlage,Kone,Bernauer Str. 115- 118,13355,Berlin,46705120,Siemens,21528,1000318,28/02/22,12/02/21
+308,Drehtür,Schindler,Wriezener Str. 039,13359,Berlin,23931142,Wisag Facility Service Holding,21529,1000319,30/04/22,25/01/21
+309,Aufzug,Johnsen,Reinickendorfer Str. 063,13347,Berlin,55 23 59 37,Wisag Facility Service Holding,21530,1000320,30/04/22,12/02/21
+310,Plattformlift,Schmitt,Kameruner Str. 055,13351,Berlin,60590438,Helios Kliniken,21531,1000321,31/12/22,10/01/21
+311,Sonstige,Orba,Dubliner Str. 008,13349,Berlin,60365563,Berliner Verkehrsbetriebe (BVG),21532,1000322,31/03/22,18/03/21
+312,Aufzug,Kone,Transvaalstr. 046,13351,Berlin,0176 27842105,Dirk Rossmann,21533,1000323,31/12/22,18/03/21
+313,Fahreppe,Lutz,Prinz-Eugen-Str. 016,13347,Berlin,40746020,Gasag-Gruppe,21534,1000324,31/12/22,27/02/21
+314,Laderampe,Lutz,Antwerpener Str. 040,13353,Berlin,491022491,BT Berlin Transport,21535,1000325,31/03/22,25/01/21
+315,Rolltor,Hitachi,Osloer Str. 124,13359,Berlin,24032367,Messe Berlin,21536,1000326,30/04/22,27/02/21
+316,Drehtür,Thyssenkrupp,Müllerstr. 061,13349,Berlin,0178 3529154,Commerzbank,21537,1000327,31/03/22,27/02/21
+317,Drehtür,Thyssenkrupp,Badstr. 057/58,13357,Berlin,40748055,PIN Mail,21538,1000328,30/04/22,12/02/21
+318,Aufzug,Johnsen,Lichtburgring 011,13355,Berlin,42025929,Alba,21539,1000329,31/12/22,18/03/21
+319,Laderampe,Johnsen,Burgsdorfstr. 013,13353,Berlin,23538642,S-Bahn Berlin,21540,1000330,28/02/22,18/03/21
+320,Fahrsteig,Otis,Genter Str. 074,13353,Berlin,25097971,Lebenshilfe Berlin,21541,1000331,31/03/22,27/02/21
+321,Rolltor,Hitachi,Barfusstr. 014,13349,Berlin,0178 6520717,BASF,21542,1000332,31/12/22,18/03/21
+322,Drehtür,Lutz,Müllerstr. 064,13349,Berlin,0178 668 233 3,BASF,21543,1000333,28/02/22,27/02/21
+323,Garagentor,Schmitt,Transvaalstr. 043,13351,Berlin,0151/10610550,Vivantes-Netzwerk für Gesundheit,21544,1000334,28/02/22,25/01/21
+324,Sonstige,Thyssenkrupp,Badstr. 010,13357,Berlin,4039492248,Daimler,21545,1000335,30/04/22,25/01/21
+325,Autoparksystem,Otis,Iranische Str. 006,13347,Berlin,32528776,GRG. Die Gebäudereiniger,21546,1000336,30/04/22,02/03/21
+326,Treppenlift,Lutz,Müllerstr. 077-78,13349,Berlin,59513023,Degewo,21547,1000337,28/02/22,27/02/21
+327,Treppenlift,Hyundai,Triftstr. 067,13353,Berlin,491022492,Wisag Facility Service Holding,21548,1000338,28/02/22,10/01/21
+328,Sonstige,Schmitt,Lynarstr. 039,13353,Berlin,15257389192,Deutsche Bahn (inkl. S-Bahn Berlin),21549,1000339,31/12/22,18/03/21
+329,Fassadenbefahranlage,Johnsen,Soldiner Str. 031,13359,Berlin,49201764,Berliner Werkstätten für Menschen mit Behinderung BWB,21550,1000340,31/03/22,10/01/21
+330,Plattformlift,Johnsen,Tegeler Str. 018-19,13353,Berlin,45 30 84 22,Berlin-Chemie,21551,1000341,31/03/22,18/03/21
+331,Fahreppe,Osma,Ravenéstr. 010,13347,Berlin,0,Sana Kliniken Berlin-Brandenburg,21552,1000342,30/04/22,12/02/21
+332,Fahrsteig,Lutz,Putbusser Str. 030/31,13355,Berlin,22495938,Ernst & Young,21553,1000343,28/02/22,25/01/21
+333,Garagentor,Mitsubishi,Prinzenallee 058,13359,Berlin,50958890,Unfallkrankenhaus Berlin,21554,1000344,31/03/22,25/01/21
+334,Fluggastbrücke,Johnsen,Brüsseler Str. 045,13353,Berlin,,Degewo,21555,1000345,30/04/22,02/03/21
+335,Garagentor,Kone,Andreasstr. 037,10243,Berlin,29381046,Piepenbrock Dienstleistungen,21556,1000346,30/04/22,10/01/21
+336,Automatiktür,Thyssenkrupp,Auerstr. 013-17,10249,Berlin,030 32660425,Delivery Hero,21557,1000347,28/02/22,10/01/21
+337,Garagentor,Lutz,Bänschstr. 078,10247,Berlin,426 93 12,August Storck,21558,1000348,31/12/22,02/03/21
+338,Rauchabzug,Otis,Stralauer Allee 001,10245,Berlin,235999610,Parexel International,21559,1000349,30/04/22,02/03/21
+339,Automatiktür,Schmitt,Colbestr. 009,10247,Berlin,20050926,Deutsches Rotes Kreuz,21560,1000350,31/03/22,18/03/21
+340,Fluggastbrücke,Lutz,Fürstenwalder Str. 030,10243,Berlin,235999610,Deutsche Telekom,21561,1000351,31/03/22,02/03/21
+341,Fahrsteig,Otis,Gryphiusstr. 034 - 35,10245,Berlin,2910547,Vivantes-Netzwerk für Gesundheit,21562,1000352,31/03/22,10/01/21
+342,Fahreppe,Brobeil,Dirschauer Str. 013,10245,Berlin,2904 9648,BT Berlin Transport,21563,1000353,31/12/22,18/03/21
+343,Plattformlift,Otis,Hildegard-Jadamowitz-Str. 001,10243,Berlin,29666850,Max-Delbrück-Centrum,21564,1000354,28/02/22,27/02/21
+344,Fahrsteig,Orba,Ebertystr. 043,10249,Berlin,4280 9879,Alexianer,21565,1000355,31/12/22,27/02/21
+345,Aufzug,Johnsen,Kinzigstr. 032,10247,Berlin,2911562,Berliner Wasserbetriebe,21566,1000356,30/04/22,12/02/21
+346,Rauchabzug,Otis,Straßmannstr. 028,10249,Berlin,030 615 25 79,Gasag-Gruppe,21567,1000357,31/12/22,25/01/21
+347,Plattformlift,Kone,Schreinerstr. 019,10247,Berlin,42081080,Ernst & Young,21568,1000358,31/12/22,10/01/21
+348,Aufzug,Mitsubishi,Simon-Dach-Str. 024,10245,Berlin,2005 3912,Dussmann Group,21569,1000359,31/12/22,12/02/21
+349,Garagentor,Lutz,Travestr. 003,10247,Berlin,2068 7890,Renafan,21570,1000360,31/12/22,02/03/21
+350,Laderampe,Schindler,Liebigstr. 030,10247,Berlin,4267875,BT Berlin Transport,21571,1000361,30/04/22,12/02/21
+351,Fahreppe,Kone,Eldenaer Str. 028A,10247,Berlin,,Knorr-Bremse,21572,1000362,28/02/22,18/03/21
+352,Plattformlift,Brobeil,Palisadenstr. 030,10243,Berlin,030 42026940,Deutsche Post DHL,21573,1000363,28/02/22,27/02/21
+353,Plattformlift,Orona,Palisadenstr. 033,10243,Berlin,4265502,Max-Delbrück-Centrum,21574,1000364,31/03/22,10/01/21
+354,Plattformlift,Kone,Rudolfstr. 014B,10245,Berlin,29663078,Berlin-Chemie,21575,1000365,28/02/22,02/03/21
+355,Garagentor,Lutz,Palmkernzeile 008,10245,Berlin,030 29669696,Deutsche Post DHL,21576,1000366,31/03/22,10/01/21
+356,Fassadenbefahranlage,Schindler,Richard-Sorge-Str. 044,10249,Berlin,25562629,August Storck,21577,1000367,30/04/22,25/01/21
+357,Autoparksystem,Kone,Rigaer Str. 053-54,10247,Berlin,030/4261815,Rewe Markt GmbH,21578,1000368,31/03/22,02/03/21
+358,Sonstige,Hyundai,Straßmannstr. 036,10249,Berlin,42022190,Lebenshilfe Berlin,21579,1000369,28/02/22,12/02/21
+359,Drehtür,Otis,Kreutzigerstr. 024,10247,Berlin,29309631,Aldi,21580,1000370,30/04/22,10/01/21
+360,Rolltor,Orona,Scharnweberstr. 060,10247,Berlin,2916164,Stadler Pankow,21581,1000371,30/04/22,18/03/21
+361,Plattformlift,Schindler,Simplonstr. 018,10245,Berlin,2910614,Berliner Volksbank,21582,1000372,31/12/22,27/02/21
+362,Fahrsteig,Johnsen,Gubener Str. 051,10243,Berlin,54 71 94 22,Axel Springer,21583,1000373,31/03/22,27/02/21
+363,Laderampe,Hyundai,Strausberger Str. 049,10243,Berlin,(030) 22502155,BT Berlin Transport,21584,1000374,28/02/22,02/03/21
+364,Drehtür,Hyundai,Fredersdorfer Str. 006,10243,Berlin,29770410,Bauhaus,21585,1000375,28/02/22,02/03/21
+365,Plattformlift,Orona,Weidenweg 068,10247,Berlin,4222428,Ernst & Young,21586,1000376,31/12/22,12/02/21
+366,Treppenlift,Osma,Weidenweg 078,10247,Berlin,41724851,Deutsche Bahn (inkl. S-Bahn Berlin),21587,1000377,28/02/22,10/01/21
+367,Garagentor,Mitsubishi,Friedenstr. 001,10249,Berlin,(030)247 89 23,Deutsche Kreditbank,21588,1000378,30/04/22,25/01/21
+368,Fahreppe,Mitsubishi,Diestelmeyerstr. 007,10249,Berlin,429 19 86,Berliner Verkehrsbetriebe (BVG),21589,1000379,30/04/22,25/01/21
+369,Automatiktür,Orba,Rigaer Str. 009,10247,Berlin,422 59 44,Ikea Deutschland,21590,1000380,30/04/22,02/03/21
+370,Sonstige,Orona,Samariterstr. 027,10247,Berlin,41721932,GRG. Die Gebäudereiniger,21591,1000381,30/04/22,02/03/21
+371,Rauchabzug,Orona,Niemannstr. 001,10245,Berlin,26948055,Stephanus-Stiftung,21592,1000382,31/12/22,25/01/21
+372,Automatiktür,Mitsubishi,Jungstr. 015-017,10247,Berlin,2911646,S-Bahn Berlin,21593,1000383,31/03/22,10/01/21
+373,Laderampe,Schmitt,Koppenstr. 015,10243,Berlin,2965462,Unionhilfswerk Unternehmensverbund,21594,1000384,31/03/22,25/01/21
+374,Rolltor,Brobeil,Scharnweberstr. 033,10247,Berlin,2926120,Vitanas Gruppe,21595,1000385,30/04/22,10/01/21
+375,Treppenlift,Schindler,Höchste Str. 011,10249,Berlin,84712972,S-Bahn Berlin,21596,1000386,31/12/22,10/01/21
+376,Rolltor,Johnsen,Müggelstr. 019B,10247,Berlin,443 83 581,dm-drogerie Markt,21597,1000387,31/03/22,12/02/21
+377,Fahreppe,Johnsen,Scharnweberstr. 061,10247,Berlin,291 12 72,Piepenbrock Dienstleistungen,21598,1000388,30/04/22,18/03/21
+378,Aufzug,Vestner,Simon-Dach-Str. 025,10245,Berlin,25768118,AOK,21599,1000389,31/03/22,12/02/21
+379,Autoparksystem,Kone,Ebertystr. 007,10249,Berlin,8454509,3B Dienstleistung Deutschland,21600,1000390,30/04/22,27/02/21
+380,Sonstige,Hyundai,Am Rudolfplatz 005,10245,Berlin,17643543331,Vivantes-Netzwerk für Gesundheit,21601,1000391,30/04/22,18/03/21
+381,Aufzug,Vestner,Gryphiusstr. 025,10245,Berlin,67511192,Allianz,21602,1000392,31/03/22,27/02/21
+382,Rolltor,Lutz,Mühsamstr. 073,10249,Berlin,3028707878,Securitas Sicherheitsdienste,21603,1000393,28/02/22,18/03/21
+383,Treppenlift,Orona,Karl-Marx-Allee 124,10243,Berlin,76583689,H&M Hennes & Mauritz,21604,1000394,31/12/22,18/03/21
+384,Fahreppe,Otis,Gubener Str. 058,10243,Berlin,99192979,Evangelisches Krankenhaus Königin Elisabeth Herzberge,21605,1000395,31/12/22,10/01/21
+385,Automatiktür,Mitsubishi,Strausberger Str. 038,10243,Berlin,74779251,Gegenbauer,21606,1000396,28/02/22,02/03/21
+386,Fahrsteig,Orba,Seumestr. 031,10245,Berlin,88949514,Ikea Deutschland,21607,1000397,31/03/22,27/02/21
+387,Fluggastbrücke,Hyundai,Warschauer Str. 079,10243,Berlin,53 06 99 50,KPMG,21608,1000398,31/12/22,12/02/21
+388,Rauchabzug,Orona,Eckertstr. 017,10249,Berlin,17621429167,GRG. Die Gebäudereiniger,21609,1000399,30/04/22,27/02/21
+389,Fassadenbefahranlage,Brobeil,Gryphiusstr. 021,10245,Berlin,75453167,Gasag-Gruppe,21610,1000400,28/02/22,27/02/21
+390,Sonstige,Mitsubishi,Kleine Markusstr. 009,10243,Berlin,20095270,Biotronik,21611,1000401,30/04/22,12/02/21
+391,Fahreppe,Osma,Gubener Str. 001A,10243,Berlin,63379208,H&M Hennes & Mauritz,21612,1000402,28/02/22,12/02/21
+392,Treppenlift,Johnsen,Revaler Str. 010,10245,Berlin,24323648,Kaufland,21613,1000403,31/03/22,18/03/21
+393,Laderampe,Mitsubishi,Gubener Str. 046(Erdgeschoss),10243,Berlin,15153252199,GRG. Die Gebäudereiniger,21614,1000404,30/04/22,02/03/21
+394,Rauchabzug,Orona,Bahrfeldtstr. 009- 10,10245,Berlin,21237415,EJF,21615,1000405,31/12/22,27/02/21
+395,Aufzug,Osma,Schreinerstr. 062,10247,Berlin,17637468882,Alba,21616,1000406,30/04/22,27/02/21
+396,Plattformlift,Orba,Modersohnstr. 058,10245,Berlin,0152-34555551,Berliner Glas,21617,1000407,31/12/22,10/01/21
+397,Automatiktür,Schindler,Andreasstr. 051,10243,Berlin,28472144,Steinecke's Heidebrot Backstube,21618,1000408,30/04/22,18/03/21
+398,Plattformlift,Schindler,Kinzigstr. 011,10247,Berlin,76583689,Fröbel Bildung und Erziehung,21619,1000409,31/12/22,10/01/21
+399,Autoparksystem,Lutz,Bänschstr. 088,10247,Berlin,48622703,AWO,21620,1000410,31/03/22,10/01/21
+400,Rolltor,Vestner,Rigaer Str. 014,10247,Berlin,7953389,Max-Delbrück-Centrum,21621,1000411,31/12/22,25/01/21
