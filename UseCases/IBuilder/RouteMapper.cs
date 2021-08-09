@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.IO.Enumeration;
 using Domain.Core;
 using Infrastructure.DataAccess.Dtos;
+using Infrastructure.Repository.TerminalRepositoryCollection;
 
 namespace UseCases
 {
-    public class RouteMapper
+    public class RouteMapper 
     {
         private readonly IRouteRepository _routeRepository;
 

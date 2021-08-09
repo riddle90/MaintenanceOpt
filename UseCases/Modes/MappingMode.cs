@@ -1,26 +1,21 @@
-﻿using System;
 using System.Threading.Tasks;
-using UseCases.IAlgorithms;
 
 namespace UseCases
 {
-    public class RoutingEngine : IRoutingEngine
+    public class MappingMode : IMappingMode
     {
         private readonly IInputBuilder _inputBuilder;
         private readonly IOutputBuilder _outputBuilder;
-        private readonly IOptimizer _optimizer;
 
-        public RoutingEngine(IInputBuilder inputBuilder, IOutputBuilder outputBuilder, IOptimizer optimizer)
+        public MappingMode(IInputBuilder inputBuilder, IOutputBuilder outputBuilder)
         {
             _inputBuilder = inputBuilder;
             _outputBuilder = outputBuilder;
-            _optimizer = optimizer;
         }
         public async Task Run(string apiKey)
         {
             await this._inputBuilder.Build(apiKey);
-            this._optimizer.BuildRoutes();
-            await this._outputBuilder.SaveResults();
+            await this._outputBuilder.SaveDistanceMatrix();
         }
     }
 }

@@ -5,6 +5,8 @@ namespace UseCases
 {
     public interface IOutputBuilder
     {
-        Task SaveResults();
+        Task SaveRoutingResults();
+
+        Task SaveDistanceMatrix();
     }
 }

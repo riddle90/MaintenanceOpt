@@ -25,11 +25,15 @@ namespace Infrastructure.Repository.DistanceMatrixRepositoryCollection
 
         public float GetDistance(long originCustomer, long destinationCustomer)
         {
+            if (originCustomer == 0 || destinationCustomer == 0)
+                return 0;
             return _distanceMatrix[originCustomer][destinationCustomer].Distance;
         }
 
         public float GetTime(long originCustomer, long destinationCustomer)
         {
+            if (originCustomer == 0 || destinationCustomer == 0)
+                return 0;
             return _distanceMatrix[originCustomer][destinationCustomer].Time;
         }
     }

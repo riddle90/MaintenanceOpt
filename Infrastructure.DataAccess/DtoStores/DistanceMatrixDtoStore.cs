@@ -23,9 +23,9 @@ namespace Infrastructure.DataAccess
         public async Task<ICollection<DistanceMatrixDto>> GetDistanceMatrixDtos(
             IEnumerable<MaintenanceStopDto> maintenanceStopDtos)
         {
-            var path = Path.Combine(_folder, _filename);
+            //var path = Path.Combine(_folder, _filename);
 
-            using (TextReader reader = await FileReader.GetReader(path))
+            using (TextReader reader = await FileReader.GetReader(_filename))
             {
                 var configuration = new CsvConfiguration(CultureInfo.InvariantCulture)
                 {
@@ -42,7 +42,7 @@ namespace Infrastructure.DataAccess
             }
         }
         
-        public async Task WriteDistanceMatrixDtos(IEnumerable<DistanceMatrixDtoStore> distanceMatrixDtoStores)
+        public async Task WriteDistanceMatrixDtos(IEnumerable<DistanceMatrixDto> distanceMatrixDtos)
         {
             
             var path = Path.Combine(_folder, _filename);
@@ -51,14 +51,16 @@ namespace Infrastructure.DataAccess
                 TextWriter writer = new StreamWriter(stream);
                 var configuration = new CsvConfiguration(CultureInfo.InvariantCulture)
                 {
-                    Delimiter = ","
+                    Delimiter = ",",
+                    HasHeaderRecord = false,
                 };
 
                 using (var csv = new CsvWriter(writer, configuration))
                 {
                     csv.Context.RegisterClassMap<DistanceDataMapping>();
-                    csv.WriteHeader(typeof(DistanceMatrixDtoStore));
-                    await csv.WriteRecordsAsync(distanceMatrixDtoStores);
+                    csv.WriteHeader<DistanceMatrixDto>();
+                    csv.NextRecord();
+                    await csv.WriteRecordsAsync(distanceMatrixDtos);
                 }
             }
         }

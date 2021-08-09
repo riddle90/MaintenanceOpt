@@ -19,7 +19,7 @@ namespace Algorithms.TspSolver
         }
         public List<Stop> Run(List<Stop> stops)
         {
-            RoutingIndexManager manager = new RoutingIndexManager(stops.Count + 1, 1, 0);
+            RoutingIndexManager manager = new RoutingIndexManager(stops.Count, 1, 0);
             RoutingModel model = new RoutingModel(manager);
             var distance =  model.RegisterTransitCallback(((FromIndex, ToIndex) =>
             {

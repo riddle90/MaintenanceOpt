@@ -2,6 +2,6 @@
 {
     public interface IOptimizer
     {
-        void BuildRoutes();
+        void Optimize();
     }
 }

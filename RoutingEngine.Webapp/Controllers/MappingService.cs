@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using UseCases;
 
 namespace RoutingEngine.Controllers
 {
@@ -8,17 +9,20 @@ namespace RoutingEngine.Controllers
     [ApiController]
     public class MappingService : Controller
     {
+        private readonly IMappingMode _mappingMode;
         private readonly ILogger logger;
 
-        public MappingService(ILoggerFactory loggerFactory)
+        public MappingService(ILoggerFactory loggerFactory, IMappingMode mappingMode)
         {
+            _mappingMode = mappingMode;
             this.logger = loggerFactory.CreateLogger("Mapping Service");
         }
 
         [HttpPost]
-        public async Task Run(string filename)
+        public async Task Run(string apiKey)
         {
-            await Task.CompletedTask;
+            await _mappingMode.Run(apiKey);
+            logger.LogDebug("Distance Matrix Written To File");
         }
     }
 }

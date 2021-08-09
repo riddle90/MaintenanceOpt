@@ -5,5 +5,6 @@ namespace UseCases
     public interface IInputBuilder
     {
         Task Build(string apiKey);
+        Task Build();
     }
 }

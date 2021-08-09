@@ -1,13 +1,21 @@
 ﻿using System;
+using Algorithms.Construction;
 using UseCases.IAlgorithms;
 
 namespace Algorithms
 {
     public class Optimizer : IOptimizer
     {
-        public void BuildRoutes()
+        private readonly IBuildRoutes _buildRoutes;
+
+        public Optimizer(IBuildRoutes buildRoutes)
         {
-            throw new NotImplementedException();
+            _buildRoutes = buildRoutes;
+        }
+        
+        public void Optimize()
+        {
+            _buildRoutes.Construct();
         }
     }
 }

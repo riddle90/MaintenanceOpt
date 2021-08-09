@@ -28,11 +28,9 @@ namespace Infrastructure.Repository.GoogleApis
             distanceMatrixRequest.Units = Units.metric;
 
             var stops = _stopRepository.GetStops();
-            var addressToStopDictionary = new Dictionary<string, Stop>();
             foreach (var stop in stops)
             {
                 var address = $"{stop.Address}+{stop.City}+{stop.Zipcode}";
-                addressToStopDictionary.Add(address, stop);
                 distanceMatrixRequest.AddOrigin(new Location(address));
                 distanceMatrixRequest.AddDestination(new Location(address));
             }
@@ -52,7 +50,7 @@ namespace Infrastructure.Repository.GoogleApis
                         if (i != j)
                         {
                             distance = (float) response.Rows[i].Elements[j].distance.Value;
-                            duration = (float) response.Rows[i].Elements[j].distance.Value;
+                            duration = (float) response.Rows[i].Elements[j].distance.Value / 60;
                         }
                         
                         var distanceInfo = new DistanceInfo(distance, duration);

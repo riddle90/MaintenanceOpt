@@ -19,9 +19,9 @@ namespace RoutingEngine.Controllers
         }
 
         [HttpPost]
-        public async Task<string> Run(string apiKey)
+        public async Task<string> Run()
         {
-            await this._routingEngine.Run(apiKey);
+            await this._routingEngine.Run();
             return "Job Done";
         }
     }

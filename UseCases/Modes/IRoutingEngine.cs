@@ -4,6 +4,6 @@ namespace UseCases
 {
     public interface IRoutingEngine
     {
-        Task Run(string apiKey);
+        Task Run();
     }
 }

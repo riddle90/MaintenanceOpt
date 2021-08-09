@@ -25,7 +25,8 @@ namespace Infrastructure.DataAccess
 
                 using (var csv = new CsvWriter(writer, configuration))
                 {
-                    csv.WriteHeader(typeof(RouteStopDto));
+                    csv.WriteHeader<RouteStopDto>();
+                    csv.NextRecord();
                     await csv.WriteRecordsAsync(routeStopDtos);
                 }
             }
