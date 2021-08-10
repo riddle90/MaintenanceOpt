@@ -12,28 +12,31 @@ namespace Algorithms.FeasibilityAlgorithms
         {
             DistanceMatrixRepository = distanceMatrixRepository;
         }
-        public RouteDetails CheckFeasibility(List<Stop> stops)
+        public RouteDetails CheckFeasibility(List<Stop> stops, int routeStartTime)
         {
             var arrivalTimes = new Dictionary<Stop, int>();
-            var totalMiles = 0;
+            var totalKms = 0.0;
             var status = FeasibilityStatus.Feasible;
 
             
-            var prevDeptTime = 0;
+            var prevDeptTime = routeStartTime;
             long prevCustomerID = 0;
             foreach (var stop in stops)
             {
                 var travelTime = (int) DistanceMatrixRepository.GetTime(prevCustomerID, stop.CustomerId);
-                var distance = (int) DistanceMatrixRepository.GetDistance(prevCustomerID, stop.CustomerId);
+                var distance = DistanceMatrixRepository.GetDistance(prevCustomerID, stop.CustomerId);
                 
                 var arrivalTime = prevDeptTime + travelTime;
                 arrivalTimes.Add(stop,arrivalTime);
+                if (arrivalTime > stop.TimeWindow.EndTime)
+                    status = FeasibilityStatus.Infeasible;
+                
                 prevDeptTime = arrivalTime + 60;
-                totalMiles += distance;
+                totalKms += distance/1000;
                 prevCustomerID = stop.CustomerId;
             }
 
-            return new RouteDetails(arrivalTimes, totalMiles, status);
+            return new RouteDetails(arrivalTimes, (int)totalKms, status);
         }
     }
 }

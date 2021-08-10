@@ -16,7 +16,7 @@ namespace Infrastructure.DataAccess
 
         public DistanceMatrixDtoStore()
         {
-            _filename = "DistanceMatrix.csv";
+            _filename = "DistanceMatrix_2.csv";
             _folder = "Data";
         }
         

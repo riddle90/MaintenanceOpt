@@ -12,7 +12,7 @@ namespace Domain.Core
         public string City { get; }
         public TimeWindow TimeWindow { get; }
         public int StopTime { get; }
-
+        
         public Stop(Guid guid, long customerId, string address, string zipcode, string city, TimeWindow timeWindow, int stopTime)
         {
             Guid = guid;

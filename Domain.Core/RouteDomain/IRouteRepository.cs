@@ -6,6 +6,8 @@ namespace Domain.Core
     {
         void AddRoute(Route route);
 
+        void AddRoutes(List<Route> routes);
+
         ICollection<Route> GetAllRoutes();
 
         void RemoveRoutes(IEnumerable<Route> routes);

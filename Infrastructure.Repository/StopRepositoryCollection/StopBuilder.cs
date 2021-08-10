@@ -19,7 +19,7 @@ namespace Infrastructure.Repository.StopRepositoryCollection
         {
             foreach (var maintenanceStopDto in maintenanceStopDtos)
             {
-                var stop = new Stop(new Guid(), (long)maintenanceStopDto.CustomerID, maintenanceStopDto.Address,
+                var stop = new Stop(Guid.NewGuid(), (long)maintenanceStopDto.CustomerID, maintenanceStopDto.Address,
                     maintenanceStopDto.ZIPCode, maintenanceStopDto.City, new TimeWindow(420, 960), 60);
                 _stopRepository.AddStop(stop);
             }

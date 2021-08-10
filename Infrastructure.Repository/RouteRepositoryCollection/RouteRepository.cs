@@ -19,6 +19,14 @@ namespace Infrastructure.Repository
             this.OptimizedRoutes.Add(route.RouteId, route);
         }
 
+        public void AddRoutes(List<Route> routes)
+        {
+            foreach (var route in routes)
+            {
+                this.AddRoute(route);
+            }
+        }
+
         public ICollection<Route> GetAllRoutes()
         {
             return this.OptimizedRoutes.Values;

@@ -46,6 +46,8 @@ namespace Infrastructure.Repository.GoogleApis
                 var originLocations = new List<Location>();
                 for (int k = 0; k < 10; k++)
                 {
+                    if(j + k == stops.Count)
+                        break;
                     
                     var origStop = stops.ElementAt(j + k);
                     originStops.Add(origStop);
@@ -55,40 +57,49 @@ namespace Infrastructure.Repository.GoogleApis
 
                 }
 
-                var allRequests = new Dictionary<int, DistanceMatrixRequest>();
-                var allDestinationStops = new Dictionary<int, List<Stop>>();
-                var destinationStops = new List<Stop>();
-                var destinationLocations = new List<Location>();
-                int key = 0;
+              
 
 
-                for (int i = 0; i < stops.Count; i++)
+                for (int i = 0; i < stops.Count; i += 100)
                 {
-                    var destStop = stops.ElementAt(i);
-                    var destinationAddress = $"{destStop.Address}+{destStop.City}+{destStop.Zipcode}";
-                    destinationLocations.Add(new Location(destinationAddress));
-                    destinationStops.Add(destStop);
-
-                    if (i > 0 && (i+1) % 10 == 0)
+                    var allRequests = new Dictionary<int, DistanceMatrixRequest>();
+                    var allDestinationStops = new Dictionary<int, List<Stop>>();
+                    var destinationStops = new List<Stop>();
+                    var destinationLocations = new List<Location>();
+                    int key = 0;
+                    
+                    for (int k = 0; k < 100; k++)
                     {
-                        //await CallApi(distanceMatrixRequest, destinationStops, originStops);
-                        allRequests.Add(key, GetDistanceMatrixRequestion(originLocations, destinationLocations));
-                        allDestinationStops.Add(key, destinationStops);
-                        key++;
-                        destinationStops = new List<Stop>();
-                        destinationLocations = new List<Location>();
-                        _logger.LogDebug($"Done with {i+1} destinations");
+                        if(i + k == stops.Count)
+                            break;
+
+                        var destStop = stops.ElementAt(i + k);
+                        var destinationAddress = $"{destStop.Address}+{destStop.City}+{destStop.Zipcode}";
+                        destinationLocations.Add(new Location(destinationAddress));
+                        destinationStops.Add(destStop);
+
+                        if (k > 0 && (k + 1) % 10 == 0)
+                        {
+                            //await CallApi(distanceMatrixRequest, destinationStops, originStops);
+                            allRequests.Add(key, GetDistanceMatrixRequestion(originLocations, destinationLocations));
+                            allDestinationStops.Add(key, destinationStops);
+                            key++;
+                            destinationStops = new List<Stop>();
+                            destinationLocations = new List<Location>();
+                            _logger.LogDebug($"Done with {i+k+1} destinations");
+                        }
                     }
+
+                    if (destinationLocations.Any())
+                    {
+                        allDestinationStops.Add(key, destinationStops);
+                        allRequests.Add(key, GetDistanceMatrixRequestion(originLocations, destinationLocations));
+                        //await this.CallApi(distanceMatrixRequest, AlldestinationStops, originStops);
+                    }
+                    await CallParallelApi(allRequests, allDestinationStops, originStops);
+                    await Task.Delay(1000);
                 }
 
-                if (allDestinationStops.Any())
-                {
-                    allDestinationStops.Add(key, destinationStops);
-                    allRequests.Add(key, GetDistanceMatrixRequestion(originLocations, destinationLocations));
-                    //await this.CallApi(distanceMatrixRequest, AlldestinationStops, originStops);
-                }
-
-                await CallParallelApi(allRequests, allDestinationStops, originStops);
             }
         }
 

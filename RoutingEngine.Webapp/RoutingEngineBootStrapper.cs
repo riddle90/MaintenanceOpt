@@ -1,6 +1,7 @@
 ﻿using Algorithms;
 using Algorithms.Construction;
 using Algorithms.FeasibilityAlgorithms;
+using Algorithms.GoogleOrToolsSupportClasses;
 using Algorithms.TspSolver;
 using Domain.Core;
 using Domain.Core.DistanceMatrixDomain;
@@ -25,7 +26,15 @@ namespace RoutingEngine.Webapp
             InitializeAlgorithms(container);
             InitializeUsecases(container);
             InitializeDtoStores(container);
-            
+            InitializeGoogleOrAlgorithms(container);
+
+        }
+
+        private static void InitializeGoogleOrAlgorithms(Container container)
+        {
+            container.Register<IGetSolution, GetGoogleOrToolsSolution>();
+            container.Register<IAddTimeWindowConstraint, AddTimeWindowConstraint>();
+            container.Register<IRegisterGoogleOrToolsCallBack, RegisterGoogleOrToolsCall>();
         }
 
         private static void InitializeRepository(Container container)
@@ -41,7 +50,7 @@ namespace RoutingEngine.Webapp
             container.Register<IOptimizer, Optimizer>();
             container.Register<IBuildRoutes, BuildRoutes>();
             container.Register<ISequenceOptimizer, SequenceOptimizer>();
-            container.Register<IRunOptimization, RunOptimization>();
+            container.Register<IRunOptimization, RunGoogleOrOptimization>();
             container.Register<IFeasibilityCheck, FeasibilityCheck>();
         }
 

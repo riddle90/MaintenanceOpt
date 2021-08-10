@@ -32,7 +32,7 @@ namespace Domain.Core
 
         public int GetTotalMiles()
         {
-            return this.RouteDetails.TotalMiles;
+            return this.RouteDetails.TotalKms;
         }
     }
 }

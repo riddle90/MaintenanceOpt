@@ -6,14 +6,14 @@ namespace Domain.Core
     {
         public Dictionary<Stop, int> ArrivalTime{ get; }
         
-        public int TotalMiles { get; }
+        public int TotalKms { get; }
         
         public  FeasibilityStatus Status { get; }
 
-        public RouteDetails(Dictionary<Stop, int> arrivalTime, int totalMiles, FeasibilityStatus status)
+        public RouteDetails(Dictionary<Stop, int> arrivalTime, int totalKms, FeasibilityStatus status)
         {
             ArrivalTime = arrivalTime;
-            TotalMiles = totalMiles;
+            TotalKms = totalKms;
             Status = status;
         }
         

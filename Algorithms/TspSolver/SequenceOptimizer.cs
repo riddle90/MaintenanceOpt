@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Algorithms.FeasibilityAlgorithms;
+using Algorithms.GoogleOrToolsSupportClasses;
 using Domain.Core;
 
 namespace Algorithms.TspSolver
@@ -18,14 +20,9 @@ namespace Algorithms.TspSolver
         
         public Route Optimize(List<Stop> stops)
         {
-            var optimizedStops = _runOptimization.Run(stops);
-            var routeDetails = _feasibilityCheck.CheckFeasibility(optimizedStops);
-            if (routeDetails.Status != FeasibilityStatus.Feasible)
-            {
-                return null;
-            }
+            (List<Route> route, bool isRouteFeasible) = _runOptimization.Run(stops, 400, 0);
 
-            return new Route(new Guid(), optimizedStops, routeDetails);
+            return route.Single();
 
         }
     }
