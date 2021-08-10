@@ -27,9 +27,9 @@ namespace Algorithms.Construction
         {
             var bestKnownSolution = new List<Route>();
             bool stillSearching = true;
-            int smallestFeasible = 200;
+            int smallestFeasible = 1000;
             int largestInfeasible = 0;
-            int numVehicles = 200;
+            int numVehicles = 600;
             
             while(stillSearching)
             {
