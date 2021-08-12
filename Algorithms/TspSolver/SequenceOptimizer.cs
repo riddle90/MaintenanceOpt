@@ -20,7 +20,7 @@ namespace Algorithms.TspSolver
         
         public Route Optimize(List<Stop> stops)
         {
-            (List<Route> route, bool isRouteFeasible) = _runOptimization.Run(stops, 400, 0);
+            (List<Route> route, bool isRouteFeasible) = _runOptimization.Run(stops, 400, 0, 30);
 
             return route.Single();
 

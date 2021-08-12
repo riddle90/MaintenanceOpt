@@ -25,20 +25,18 @@ namespace Algorithms.Construction
         
         public void Construct()
         {
-            var bestKnownSolution = new List<Route>();
             bool stillSearching = true;
-            int smallestFeasible = 1000;
+            int smallestFeasible = 2770;
             int largestInfeasible = 0;
             int numVehicles = 600;
             
             while(stillSearching)
             {
-                (var routes, var allRoutesFeasible) = _runOptimization.Run(_stopRepository.GetStops().ToList(), numVehicles, 0);
+                (var routes, var allRoutesFeasible) = _runOptimization.Run(_stopRepository.GetStops().ToList(), numVehicles, 0, 15);
 
                 if (allRoutesFeasible)
                 {
                     smallestFeasible = numVehicles;
-                    bestKnownSolution = routes;
                     _logger.LogDebug($"Found Feasible Solution with {numVehicles}");
                 }
                 else
@@ -54,7 +52,29 @@ namespace Algorithms.Construction
                     stillSearching = false;
                 }
             }
+
+            stillSearching = true;
+            while (stillSearching)
+            {
+                numVehicles = smallestFeasible - 1;
+                (var routes, var allRoutesFeasible) = _runOptimization.Run(_stopRepository.GetStops().ToList(), numVehicles, 0, 30);
+
+                if (allRoutesFeasible)
+                {
+                    _logger.LogDebug($"Found Feasible Solution with {numVehicles}");
+                    smallestFeasible = numVehicles;
+                }
+                else
+                {
+                    largestInfeasible = numVehicles;
+                    stillSearching = false;
+                    _logger.LogDebug($"Solution Infeasible with {numVehicles}");
+
+                }
+            }
             
+            (var bestKnownSolution, var _) = _runOptimization.Run(_stopRepository.GetStops().ToList(), smallestFeasible, 0, 300);
+
             _routeRepository.AddRoutes(bestKnownSolution);
         }
     }
