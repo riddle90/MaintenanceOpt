@@ -57,7 +57,7 @@ namespace Algorithms.Construction
             while (stillSearching)
             {
                 numVehicles = smallestFeasible - 1;
-                (var routes, var allRoutesFeasible) = _runOptimization.Run(_stopRepository.GetStops().ToList(), numVehicles, 0, 60);
+                (var routes, var allRoutesFeasible) = _runOptimization.Run(_stopRepository.GetStops().ToList(), numVehicles, 0, 30);
 
                 if (allRoutesFeasible)
                 {
@@ -68,10 +68,12 @@ namespace Algorithms.Construction
                 {
                     largestInfeasible = numVehicles;
                     stillSearching = false;
+                    _logger.LogDebug($"Solution Infeasible with {numVehicles}");
+
                 }
             }
             
-            (var bestKnownSolution, var _) = _runOptimization.Run(_stopRepository.GetStops().ToList(), numVehicles, 0, 300);
+            (var bestKnownSolution, var _) = _runOptimization.Run(_stopRepository.GetStops().ToList(), smallestFeasible, 0, 300);
 
             _routeRepository.AddRoutes(bestKnownSolution);
         }
