@@ -25,7 +25,7 @@ namespace Algorithms.GoogleOrToolsSupportClasses
             _timeWindowConstraint = timeWindowConstraint;
             _logger = loggerFactory.CreateLogger(this.GetType().Name);
         }
-        public (List<Route>, bool) Run(List<Stop> stops, int numVehicles, int depotId)
+        public (List<Route>, bool) Run(List<Stop> stops, int numVehicles, int depotId, int duration)
         {
             RoutingIndexManager manager = new RoutingIndexManager(stops.Count + 1, numVehicles, depotId);
             RoutingModel model = new RoutingModel(manager);
@@ -42,7 +42,7 @@ namespace Algorithms.GoogleOrToolsSupportClasses
             searchParameters.FirstSolutionStrategy = FirstSolutionStrategy.Types.Value.PathCheapestArc;
             searchParameters.LocalSearchMetaheuristic = LocalSearchMetaheuristic.Types.Value.GuidedLocalSearch;
             searchParameters.LogSearch = true;
-            searchParameters.TimeLimit = new Duration {Seconds = 300};
+            searchParameters.TimeLimit = new Duration {Seconds = duration};
 
             var solution = model.SolveWithParameters(searchParameters);
 

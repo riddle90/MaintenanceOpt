@@ -5,6 +5,6 @@ namespace Algorithms.GoogleOrToolsSupportClasses
 {
     public interface IRunOptimization
     {
-        (List<Route>, bool) Run(List<Stop> stops, int numVehicles, int depotId);
+        (List<Route>, bool) Run(List<Stop> stops, int numVehicles, int depotId, int duration);
     }
 }
