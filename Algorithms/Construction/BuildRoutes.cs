@@ -26,13 +26,13 @@ namespace Algorithms.Construction
         public void Construct()
         {
             bool stillSearching = true;
-            int smallestFeasible = 1000;
+            int smallestFeasible = 2770;
             int largestInfeasible = 0;
             int numVehicles = 600;
             
             while(stillSearching)
             {
-                (var routes, var allRoutesFeasible) = _runOptimization.Run(_stopRepository.GetStops().ToList(), numVehicles, 0, 30);
+                (var routes, var allRoutesFeasible) = _runOptimization.Run(_stopRepository.GetStops().ToList(), numVehicles, 0, 15);
 
                 if (allRoutesFeasible)
                 {
